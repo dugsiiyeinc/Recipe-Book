@@ -1,7 +1,7 @@
+const searchQuery = document.getElementById('searching').value;
 
 // fetching api
 async function searchRecipe() {
-    const searchQuery = document.getElementById('searching').value;
     const url = `https://yummly2.p.rapidapi.com/feeds/search?start=0&maxResult=20&maxTotalTimeInSeconds=7200&q=${searchQuery}&allowedAttribute=diet-lacto-vegetarian&allowedAttribute=low-fodmap&FAT_KCALMax=1000`; 
 
     const options = {
