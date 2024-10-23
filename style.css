@@ -176,7 +176,11 @@ input[type="search"]:focus {
     margin-right: 8px;
 }
 
-
+.img-shape{
+    max-width: fit-content;
+    margin-top: -70rem;
+   
+}
 
 
 
