@@ -1,0 +1,71 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Pasta Carbonara",
+        "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "image": "/images/image.png",
+        "ingredients": [
+          "200g spaghetti",
+          "100g pancetta",
+          "2 large eggs",
+          "50g Parmesan cheese, grated",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Cook spaghetti according to the package instructions. Drain and set aside.",
+          "In a pan, cook the pancetta until crispy.",
+          "In a bowl, whisk together eggs and grated Parmesan cheese.",
+          "Combine the cooked spaghetti and pancetta in the pan. Remove from heat.",
+          "Pour the egg mixture over the pasta and stir quickly until creamy.",
+          "Season with salt and pepper and serve immediately."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Chicken Soup",
+        "description": "A comforting chicken soup with vegetables and flavorful broth.",
+        "image": "/images/image.png",
+        "ingredients": [
+          "1 whole chicken, cut into pieces",
+          "2 carrots, sliced",
+          "2 celery stalks, chopped",
+          "1 onion, chopped",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "In a large pot, add chicken pieces and cover with water. Bring to a boil and reduce to a simmer.",
+          "Skim off any foam that forms on the surface.",
+          "Add carrots, celery, and onions to the pot.",
+          "Simmer until the chicken is cooked through and the vegetables are tender.",
+          "Season with salt and pepper to taste.",
+          "Serve hot with crusty bread."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Vegetable Stir Fry",
+        "description": "A quick and healthy vegetable stir fry with a savory soy sauce.",
+        "image": "/images/image.png",
+        "ingredients": [
+          "1 cup broccoli florets",
+          "1 cup sliced carrots",
+          "1 cup bell peppers, sliced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon sesame oil",
+          "1 teaspoon minced garlic"
+        ],
+        "instructions": [
+          "Heat sesame oil in a large pan over medium heat.",
+          "Add minced garlic and sauté until fragrant.",
+          "Add the broccoli, carrots, and bell peppers. Cook until tender-crisp.",
+          "Pour in the soy sauce and toss to coat the vegetables evenly.",
+          "Serve the stir fry over rice or noodles."
+        ]
+      }
+    ]
+  }
+  
+
+
+  
