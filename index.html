@@ -1,53 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Book</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <header>
-      <nav class="navbar">
-        <div class="brand-title">Recipe Book</div>
-        <a href="#" class="togle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#service">Recipes</a></li>
-            <li><a href="#portfolio">About</a></li>
-            <li><a href="#blog">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+        <nav class="navbar">
+            <div class="brand-title">Recipe Book</div>
+            <a href="#" class="togle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Recipes</a></li>
+                    <li><a href="#portfolio">About</a></li>
+                    <li><a href="#blog">Contact</a></li>
+                </ul>
+            </div>
+            
+        </nav>
     </header>
 
-    <main class="main">
-      <div>
-        <h1>
-          Healthy Diet <br />
-          Everyday
-        </h1>
-        <p>
-          order today and receive your <br />
-          package tomorrow
-        </p>
-        <input type="submit" value="Explore Recipes" />
-        <input type="submit" value="Get Started" />
-        <h3>Featured Recipe</h3>
-        <h5>Find new inspiration →</h5>
-      </div>
-      <figure id="image-container"></figure>
+   
+ <main class="main">
+        <div>
+            <h1>Healthy Diet <br> Everyday</h1>
+            <p>order today and receive your <br> package tomorrow</p>
+            <input type="submit" value="Explore Recipes">
+            <input type="submit" value="Get Started">
+            <h3>Featured Recipe</h3>
+            <h5>Find new inspiration →</h5>
+        </div>
+        <figure id="image-container"></figure>
     </main>
 
+    <!-- Section two  -->
+     <div></div>
+    <section class="why-choose-us">
+        <h2>Why Choose Recipe Vault?</h2>
+        <p class="section-description">
+            Discover why Recipe Vault is the ultimate tool for managing and discovering new recipes.
+        </p>
+        <div class="reasons">
+            <!-- Existing 4 reasons -->
+            <div class="reason-card">
+                <div class="icon-bg">
+                    <i class="fas fa-book-open reason-icon"></i>
+                </div>
+                <h3>Easy Recipe Management</h3>
+                <p>Organize, categorize, and search through your recipes easily, keeping them all in one place.</p>
+            </div>
+            <div class="reason-card">
+                <div class="icon-bg">
+                    <i class="fas fa-carrot reason-icon"></i>
+                </div>
+                <h3>Ingredient-Based Suggestions</h3>
+                <p>Get recipe recommendations based on the ingredients you have, reducing waste and making meal planning easier.</p>
+            </div>
+            <div class="reason-card">
+                <div class="icon-bg">
+                    <i class="fas fa-tags reason-icon"></i>
+                </div>
+                <h3>Customizable Tags</h3>
+                <p>Create and organize tags like "Quick Meals", "Vegetarian", and "Family Favorites" to easily find your go-to dishes.</p>
+            </div>
+            <div class="reason-card">
+                <div class="icon-bg">
+                    <i class="fas fa-utensils reason-icon"></i>
+                </div>
+                <h3>API Integration</h3>
+                <p>Stay inspired with fresh meal ideas by integrating with APIs that offer trending and seasonal recipes.</p>
+            </div>
+
+            <!-- New 4 reasons -->
+            <div class="reason-card">
+                <div class="icon-bg">
+                    <i class="fas fa-calendar-alt reason-icon"></i>
+                </div>
+                <h3>Meal Planning</h3>
+                <p>Plan your weekly meals easily by selecting recipes, creating grocery lists, and organizing your cooking schedule.</p>
+            </div>
+            <div class="reason-card">
+                <div class="icon-bg">
+                    <i class="fas fa-apple-alt reason-icon"></i>
+                </div>
+                <h3>Nutritional Information</h3>
+                <p>Track the nutritional content of your meals and ensure that you're maintaining a balanced diet.</p>
+            </div>
+            
+        </div>
+    </section>
+      
+    
+    
     <script src="main.js"></script>
-  </body>
+</body>
 </html>
