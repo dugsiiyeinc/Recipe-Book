@@ -31,3 +31,35 @@ function changeImage() {
 
 setInterval(changeImage, 3000);
 
+
+
+// Section four 
+
+let currentSlide = 0;
+const testimonials = document.querySelectorAll('.testimonial');
+const dots = document.querySelectorAll('.dot');
+
+function showTestimonial(index) {
+    testimonials.forEach((testimonial, i) => {
+        testimonial.classList.remove('active');
+    });
+    testimonials[index].classList.add('active');
+
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[index].classList.add('active');
+}
+
+function nextTestimonial() {
+    currentSlide = (currentSlide + 1) % testimonials.length;
+    showTestimonial(currentSlide);
+}
+
+function currentTestimonial(index) {
+    currentSlide = index - 1;
+    showTestimonial(currentSlide);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    showTestimonial(currentSlide);
+    setInterval(nextTestimonial, 5000); // Change testimonial every 5 seconds
+});
