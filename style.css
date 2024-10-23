@@ -333,6 +333,118 @@ header {
   transform: translateY(-3px);
 }
 
+
+
+
+/* section four */
+.testimonial-slider {
+  width: 100%;
+  max-width: 1100px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: none; /* Removed shadow */
+  position: relative;
+  border: none; /* Removed any borders */
+}
+
+.testimonial-slider h2 {
+  font-size: 3em;
+  color: #4caf50;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/* Testimonial Container */
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Testimonial Layout */
+.testimonial {
+  display: none; /* Hide all testimonials by default */
+}
+
+.testimonial.active {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0; /* Added some padding between testimonials */
+}
+
+/* Testimonial Content Alignment */
+.testimonial-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Testimonial Image */
+.testimonial-image {
+  width: 20rem; /* Adjusted the image size to be a bit smaller */
+  height: 20rem;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial Text */
+.testimonial-text {
+  max-width: 600px;
+  font-size: 50rem;
+  text-align: left;
+}
+
+.testimonial-text .quote {
+  font-size: 18px; /* Adjusted the font size for better readability */
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.testimonial-text h3 {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.position {
+  font-size: 14px; /* Reduced size for a cleaner look */
+  color: #777;
+}
+
+/* Dots styling */
+.dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 12px; /* Reduced dot size */
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #4caf50;
+}
+
+/* Fade Animation */
+.fade {
+  animation: fade 1s ease-in-out;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
