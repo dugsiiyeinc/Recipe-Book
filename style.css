@@ -67,7 +67,7 @@ header{
 
 /* Recipes */
 
-/* Styling for the label */
+
 label {
     font-size: 16px;
     font-weight: bold;
@@ -75,7 +75,7 @@ label {
     color: #333;
 }
   
-  /* Styling for the search input */
+
 input[type="search"] {
     width: 450px;
     padding: 10px;
@@ -85,18 +85,16 @@ input[type="search"] {
     transition: border-color 0.3s ease-in-out;
 }
   
-  /* Hover effect for the search input */
+
 input[type="search"]:hover {
     border-color: #888;
 }
-  
-  /* Focus effect to highlight the input */
+
 input[type="search"]:focus {
     outline: none;
     border-color: #4CAF50;
 }
   
-  /* Add some margin to space out elements */
 .search-container {
     display: flex;
     align-items: center;
@@ -105,7 +103,7 @@ input[type="search"]:focus {
 }
   
 
-  /* Recipe Cards Styling */
+ 
 .recipe-card {
     border: 1px solid #ccc;
     padding: 15px;
@@ -119,6 +117,71 @@ input[type="search"]:focus {
     width: 100%;
     height: auto;
 }
+
+
+/* about */
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+
+.wrapper p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #555;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+.vision-mission-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+.section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.section p::before {
+    content: "•";
+    color: #555;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
 
 
 @media (max-width : 768px){
@@ -167,4 +230,17 @@ input[type="search"]:focus {
         transform: translateY(-8px) rotate(-45deg);
 
    }
+
+   /* about */
+   .wrapper h1 {
+    font-size: 2rem;
+    }
+
+    .wrapper p {
+        font-size: 1.1rem;
+    }
+
+    .vision-mission-container {
+        font-size: 1.1rem;
+    }
 }
