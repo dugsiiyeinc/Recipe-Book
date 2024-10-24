@@ -10,15 +10,18 @@ header{
     background-color: #1f2053;
     position: fixed; 
     width: 100%;
+    height:5rem;
     top: 0; 
     z-index: 1000;
+    font-size: 1.2rem;
 }
 .navbar{
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 500px;
+    margin-top: 1rem;
     
 }
 .brand-title{
@@ -37,7 +40,8 @@ header{
 }
 
 .navbar-links li{
-    padding: 0 10px;
+    padding: 0 20px;
+
 }
 .navbar-links a{
     text-decoration: none;
