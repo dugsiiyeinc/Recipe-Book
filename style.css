@@ -7,18 +7,24 @@ body {
   font-family: Arial, sans-serif;
 }
 header {
-  background-color: #33565c;
+  background-color: #1f2053;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
+  padding-top: 15px;
 }
 .navbar {
   display: flex;
   color: white;
   justify-content: space-between;
   align-items: center;
-  padding: 0 200px;
+  padding: 0 250px;
+}
+.navbar img{
+  width: 7rem;
+  height: 4rem;
+  margin-top: -20px;
 }
 .brand-title {
   font-size: 1.5em;
@@ -26,6 +32,7 @@ header {
 }
 .navbar-links {
   height: 100%;
+  display: flex;
 }
 .navbar-links ul {
   display: flex;
@@ -35,7 +42,8 @@ header {
 }
 
 .navbar-links li {
-  padding: 0 10px;
+  padding: 0 20px;
+  font-size: 1rem;
 }
 .navbar-links a {
   text-decoration: none;
@@ -43,6 +51,40 @@ header {
   font-size: 1em;
   line-height: 60px;
   display: block;
+}
+.navbar-links a:hover{
+  color: rgb(185, 185, 185);
+}
+.header-actions {
+  /* display: flex; */
+  align-items: center;
+  margin-left: 50px;
+}
+
+.sign-in, .sign-up {
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-left: 2rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sign-up {
+  background-color: green; 
+  border-radius: 5px;
+  color: white;
+}
+
+.sign-in:hover {
+  opacity:0.8;
+  color: rgb(185, 185, 185);
+}
+.sign-up:hover{
+  opacity:0.8;
+  background-color: responsive;
 }
 /* .navbar-links a:hover{
       background-color: #444;
@@ -97,7 +139,6 @@ header {
     text-align: center;
     position: relative;
     z-index: 2; 
-    
   }
   
   .hero-content h1 {
@@ -116,7 +157,6 @@ header {
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
   }
   
-/* Hero Buttons Container */
 .hero-buttons {
   display: flex;
   gap: 20px;
@@ -133,7 +173,7 @@ header {
 }
 
 .Recipes {
-  background-color: #33565c;
+  background-color: #1f2053;
   color: white;
 }
 
@@ -142,7 +182,6 @@ header {
   color: black;
 }
 
-/* Hover Effect for Buttons */
 .hero-buttons button:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -166,7 +205,7 @@ header {
 }
 .why-choose-us h2 {
   font-size: 3em;
-  color: #33565c;
+  color: #1f2053;
   margin-bottom: 20px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -197,7 +236,7 @@ header {
 }
 
 .icon-bg {
-  background: linear-gradient(45deg, #33565c, #33565c);
+  background: linear-gradient(45deg, #1f2053, #33565c);
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -215,7 +254,7 @@ header {
 
 .reason-card h3 {
   font-size: 1.5em;
-  color: #33565c;
+  color: #1f2053;
   margin-bottom: 10px;
 }
 
@@ -240,7 +279,7 @@ header {
 
 .featured-recipes h2 {
   font-size: 3em;
-  color: #33565c;
+  color: #1f2053;
   margin-bottom: 20px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -296,7 +335,7 @@ header {
 
 .recipe-card h3 {
   font-size: 1.7em;
-  color: #33565c;
+  color: #1f2053;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
 }
@@ -309,7 +348,7 @@ header {
 }
 
 .view-recipe-btn {
-  background-color: #33565c;
+  background-color: #1f2053;
   color: white;
   border: none;
   padding: 12px 30px;
@@ -320,12 +359,9 @@ header {
 }
 
 .view-recipe-btn:hover {
-  background-color: #33565c;
+  background-color: #1f2053;
   transform: translateY(-3px);
 }
-
-
-
 
 /* section four */
 .testimonial-slider {
@@ -343,7 +379,7 @@ header {
 
 .testimonial-slider h2 {
   font-size: 3em;
-  color: #33565c;
+  color: #1f2053;
   margin-bottom: 20px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -399,7 +435,7 @@ header {
   margin-top: 5px;
   font-size: 20px;
   font-weight: bold;
-  color: #33565c;
+  color: #1f2053;
 }
 
 .position {
@@ -425,7 +461,7 @@ header {
 }
 
 .dot.active {
-  background-color: #33565c;
+  background-color: #1f2053;
 }
 
 .fade {
@@ -451,7 +487,6 @@ header {
   padding: 0 20px;
 }
 
-/* Footer Columns */
 .footer-left,
 .footer-middle,
 .footer-resources,
@@ -460,10 +495,12 @@ header {
   margin: 10px;
 }
 
-/* Footer Left Section */
-.footer-left h3 {
+.footer-left img {
+  width: 8rem;
+  height: 5rem;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-top: auto;
+  /* margin-bottom: 10px; */
 }
 
 .footer-left p {
@@ -515,40 +552,89 @@ header {
 }
 
 
-
-
 /* Responsive Style*/
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 60px;
+    padding: 0 10px;
   }
+  
+  .navbar img{
+    margin-top: -20px;
+  }
+
   .togle-button {
     display: flex;
+    cursor: pointer;
+    margin-top: 5px;
   }
+
   .navbar-links {
     width: 100%;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
     transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    flex-direction: column;
   }
+
   .navbar-links ul {
     flex-direction: column;
     width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
+
   .navbar-links ul li {
+    width: 100%;
     text-align: center;
+    /* padding: 10px 0; */
   }
+
   .navbar-links a {
-    padding: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    display: block;
+    font-size: 1rem;
     line-height: 20px;
   }
+
+  .header-actions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    margin-left: -10px;
+  }
+
+  .sign-in, .sign-up {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .sign-up {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    
+  }
+
+  .sign-in:hover, .sign-up:hover {
+    opacity: 0.8;
+  }
+
   .navbar.active .navbar-links {
-    max-height: 300px;
+    max-height: 600px; /* Adjust based on the total content */
     opacity: 1;
-    transition: max-height 0.7s ease-in, opacity 0.7s ease-in;
   }
 
   /*  */
@@ -633,10 +719,7 @@ header {
     text-align: left;
   }
 
-  .footer-left,
-  .footer-middle,
-  .footer-resources,
-  .footer-right {
+  .footer-left,.footer-middle,.footer-resources,.footer-right {
     margin:15px 0;
   }
 }
