@@ -575,6 +575,38 @@ header {
   overflow: hidden;
 }
 
+.contact-info {
+  background-color: #1f2053;
+  color: white;
+  padding: 30px;
+  flex: 1;
+  text-align: left;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  font-size: 18px; 
+  font-style: italic;
+  color: #fffefe;
+  position: relative;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.contact-details p {
+  
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.contact-details i {
+  margin-right: 10px;
+}
+
 
 .contact-form {
   padding: 30px;
@@ -803,7 +835,11 @@ header {
     margin: 0 7px;
   }
 
-
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+    flex: 1;
+  }
 
   .contact-form .form-row {
     flex-direction: column;
