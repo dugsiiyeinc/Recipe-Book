@@ -468,6 +468,7 @@ header {
   animation: fade 1s ease-in-out;
 }
 
+
 /* Footer Section */
 .footer {
   background-color: #333;
@@ -509,7 +510,6 @@ header {
   color: #aaa;
 }
 
-/* Footer Middle Section */
 .footer-middle h4,
 .footer-resources h4 {
   font-size: 18px;
@@ -539,7 +539,6 @@ header {
   color: #4caf50;
 }
 
-/* Footer Right Section */
 .footer-right h4 {
   font-size: 18px;
   margin-bottom: 10px;
@@ -549,6 +548,81 @@ header {
   font-size: 14px;
   margin: 5px 0;
   color: #aaa;
+}
+
+
+/* Contact Page  */
+.contact{
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.contact h1{
+  font-size: 3em;
+  color: #1f2053;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+.contact-form {
+  padding: 30px;
+  flex: 2;
+  
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-row input,
+.contact-form .form-row textarea {
+  width: 50%;
+  margin-right: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.contact-form .form-row .subject{
+  width: 100%;
+}
+.contact-form .form-row textarea {
+  width: 100%;
+  margin-right: 0;
+}
+
+
+.contact-form button {
+  width: 100%;
+  background-color: #1f2053;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #18a65e;
 }
 
 
@@ -721,5 +795,29 @@ header {
 
   .footer-left,.footer-middle,.footer-resources,.footer-right {
     margin:15px 0;
+  }
+
+  /* Contact Page  */
+  .contact-container {
+    flex-direction: column;
+    margin: 0 7px;
+  }
+
+
+
+  .contact-form .form-row {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form .form-row input{
+    margin-bottom: 10px;
+  }
+
+  .contact-form .form-row input,
+  .contact-form .form-row textarea {
+    width: 100%;
+    margin-right: 0;
+    
   }
 }
