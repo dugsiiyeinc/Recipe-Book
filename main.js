@@ -29,7 +29,6 @@ togle_button.addEventListener('click', function(){
 
 
 // Section four 
-
 let currentSlide = 0;
 const testimonials = document.querySelectorAll('.testimonial');
 const dots = document.querySelectorAll('.dot');
@@ -56,5 +55,26 @@ function currentTestimonial(index) {
 
 document.addEventListener('DOMContentLoaded', () => {
     showTestimonial(currentSlide);
-    setInterval(nextTestimonial, 5000);
+    setInterval(nextTestimonial, 3000);
 });
+
+
+
+// SignUp and signin 
+document.addEventListener('DOMContentLoaded', () => {
+    // Handle Sign In and Sign Up button clicks across pages
+    const signInButton = document.querySelector('.sign-in');
+    const signUpButton = document.querySelector('.sign-up');
+
+    if (signInButton) {
+        signInButton.addEventListener('click', () => {
+            window.location.href = 'signin.html';
+        });
+    }
+
+    if (signUpButton) {
+        signUpButton.addEventListener('click', () => {
+            window.location.href = 'signup.html';
+        });
+    }
+})

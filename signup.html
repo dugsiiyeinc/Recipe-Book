@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <img src="logo.png" alt="Logo" class="logo">
+          <a href="#" class="togle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="recipes.html">Recipes</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+              <button class="sign-in">Sign In</button>
+              <button class="sign-up">Sign Up</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+
+    <section class="form-section">
+        <div class="form-container">
+            <form id="registerForm">
+                <h2>Create Your Account</h2>
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+                <p>Already Registered? 
+                <a href="signin.html">Login</a></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="logo.png" alt="Logo">
+                <p>© 2024 Recipe Book. All rights reserved.</p>
+            </div>
+            <div class="footer-middle">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-resources">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h4>Contact Us</h4>
+                <p>Email: contact@recipebook.com</p>
+                <p>Phone: +252615555555</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
