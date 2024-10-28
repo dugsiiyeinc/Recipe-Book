@@ -1,71 +1,209 @@
 {
-    "recipes": [
-      {
-        "id": 1,
-        "title": "Pasta Carbonara",
-        "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-        "image": "/images/image.png",
-        "ingredients": [
-          "200g spaghetti",
-          "100g pancetta",
-          "2 large eggs",
-          "50g Parmesan cheese, grated",
-          "Salt and pepper to taste"
-        ],
-        "instructions": [
-          "Cook spaghetti according to the package instructions. Drain and set aside.",
-          "In a pan, cook the pancetta until crispy.",
-          "In a bowl, whisk together eggs and grated Parmesan cheese.",
-          "Combine the cooked spaghetti and pancetta in the pan. Remove from heat.",
-          "Pour the egg mixture over the pasta and stir quickly until creamy.",
-          "Season with salt and pepper and serve immediately."
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Chicken Soup",
-        "description": "A comforting chicken soup with vegetables and flavorful broth.",
-        "image": "/images/image.png",
-        "ingredients": [
-          "1 whole chicken, cut into pieces",
-          "2 carrots, sliced",
-          "2 celery stalks, chopped",
-          "1 onion, chopped",
-          "Salt and pepper to taste"
-        ],
-        "instructions": [
-          "In a large pot, add chicken pieces and cover with water. Bring to a boil and reduce to a simmer.",
-          "Skim off any foam that forms on the surface.",
-          "Add carrots, celery, and onions to the pot.",
-          "Simmer until the chicken is cooked through and the vegetables are tender.",
-          "Season with salt and pepper to taste.",
-          "Serve hot with crusty bread."
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Vegetable Stir Fry",
-        "description": "A quick and healthy vegetable stir fry with a savory soy sauce.",
-        "image": "/images/image.png",
-        "ingredients": [
-          "1 cup broccoli florets",
-          "1 cup sliced carrots",
-          "1 cup bell peppers, sliced",
-          "2 tablespoons soy sauce",
-          "1 tablespoon sesame oil",
-          "1 teaspoon minced garlic"
-        ],
-        "instructions": [
-          "Heat sesame oil in a large pan over medium heat.",
-          "Add minced garlic and sauté until fragrant.",
-          "Add the broccoli, carrots, and bell peppers. Cook until tender-crisp.",
-          "Pour in the soy sauce and toss to coat the vegetables evenly.",
-          "Serve the stir fry over rice or noodles."
-        ]
-      }
-    ]
-  }
-  
-
-
-  
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pasta Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 large eggs",
+        "50g Parmesan cheese, grated",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook spaghetti according to the package instructions. Drain and set aside.",
+        "In a pan, cook the pancetta until crispy.",
+        "In a bowl, whisk together eggs and grated Parmesan cheese.",
+        "Combine the cooked spaghetti and pancetta in the pan. Remove from heat.",
+        "Pour the egg mixture over the pasta and stir quickly until creamy.",
+        "Season with salt and pepper and serve immediately."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chicken Soup",
+      "description": "A comforting chicken soup with vegetables and flavorful broth.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "1 whole chicken, cut into pieces",
+        "2 carrots, sliced",
+        "2 celery stalks, chopped",
+        "1 onion, chopped",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large pot, add chicken pieces and cover with water. Bring to a boil and reduce to a simmer.",
+        "Skim off any foam that forms on the surface.",
+        "Add carrots, celery, and onions to the pot.",
+        "Simmer until the chicken is cooked through and the vegetables are tender.",
+        "Season with salt and pepper to taste.",
+        "Serve hot with crusty bread."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vegetable Stir Fry",
+      "description": "A quick and healthy vegetable stir fry with a savory soy sauce.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "1 cup broccoli florets",
+        "1 cup sliced carrots",
+        "1 cup bell peppers, sliced",
+        "2 tablespoons soy sauce",
+        "1 tablespoon sesame oil",
+        "1 teaspoon minced garlic"
+      ],
+      "instructions": [
+        "Heat sesame oil in a large pan over medium heat.",
+        "Add minced garlic and sauté until fragrant.",
+        "Add the broccoli, carrots, and bell peppers. Cook until tender-crisp.",
+        "Pour in the soy sauce and toss to coat the vegetables evenly.",
+        "Serve the stir fry over rice or noodles."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Beef Tacos",
+      "description": "Delicious beef tacos with all the traditional toppings.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "500g ground beef",
+        "1 packet taco seasoning",
+        "8 small tortillas",
+        "Shredded lettuce",
+        "Diced tomatoes",
+        "Grated cheddar cheese",
+        "Sour cream"
+      ],
+      "instructions": [
+        "Cook the ground beef in a pan until browned. Drain excess fat.",
+        "Add the taco seasoning and water as per package instructions. Simmer until thickened.",
+        "Warm the tortillas in a separate pan.",
+        "Assemble the tacos with ground beef, shredded lettuce, diced tomatoes, cheese, and a dollop of sour cream."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Grilled Salmon",
+      "description": "Perfectly grilled salmon with a hint of lemon and herbs.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 lemon, sliced",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste",
+        "1 tablespoon fresh dill"
+      ],
+      "instructions": [
+        "Preheat the grill to medium heat.",
+        "Brush the salmon fillets with olive oil and season with salt, pepper, and fresh dill.",
+        "Place lemon slices on top of the salmon.",
+        "Grill the salmon for about 6-8 minutes per side, until cooked through.",
+        "Serve with additional lemon slices if desired."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Banana Pancakes",
+      "description": "Fluffy banana pancakes perfect for a weekend breakfast.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "2 ripe bananas, mashed",
+        "2 large eggs",
+        "1 cup flour",
+        "1 cup milk",
+        "1 tablespoon sugar",
+        "1 teaspoon baking powder"
+      ],
+      "instructions": [
+        "In a bowl, mix the mashed bananas and eggs together.",
+        "Add the flour, milk, sugar, and baking powder. Stir until combined.",
+        "Heat a non-stick pan over medium heat. Pour batter to form small pancakes.",
+        "Cook until bubbles appear on the surface, then flip and cook until golden.",
+        "Serve with maple syrup and fresh fruit."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Margarita Pizza",
+      "description": "A simple and classic margarita pizza with fresh basil.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "1 pizza dough",
+        "1 cup tomato sauce",
+        "200g fresh mozzarella cheese",
+        "Fresh basil leaves",
+        "Olive oil"
+      ],
+      "instructions": [
+        "Preheat the oven to 220°C (430°F).",
+        "Roll out the pizza dough and place it on a baking tray.",
+        "Spread the tomato sauce over the dough.",
+        "Top with sliced mozzarella cheese and fresh basil leaves.",
+        "Drizzle with olive oil and bake for 10-12 minutes until the crust is golden and the cheese is bubbly."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Avocado Toast",
+      "description": "Simple and healthy avocado toast with a sprinkle of salt and pepper.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "2 slices of bread",
+        "1 ripe avocado",
+        "Salt and pepper to taste",
+        "Red pepper flakes (optional)"
+      ],
+      "instructions": [
+        "Toast the bread slices until golden.",
+        "Mash the avocado in a bowl and season with salt and pepper.",
+        "Spread the mashed avocado on the toast and sprinkle with red pepper flakes if desired."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Chicken Caesar Salad",
+      "description": "Crisp romaine lettuce with grilled chicken, croutons, and Caesar dressing.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "2 chicken breasts, grilled and sliced",
+        "1 head romaine lettuce, chopped",
+        "1 cup croutons",
+        "1/4 cup grated Parmesan cheese",
+        "Caesar dressing"
+      ],
+      "instructions": [
+        "Grill the chicken breasts until cooked through and slice them.",
+        "In a large bowl, toss the chopped romaine lettuce with Caesar dressing.",
+        "Top the salad with sliced chicken, croutons, and grated Parmesan cheese."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Chocolate Chip Cookies",
+      "description": "Classic chocolate chip cookies that are soft and chewy.",
+      "image": "/images/image.png",
+      "ingredients": [
+        "1 cup butter, softened",
+        "1 cup sugar",
+        "1 cup brown sugar",
+        "2 large eggs",
+        "2 teaspoons vanilla extract",
+        "3 cups flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "2 cups chocolate chips"
+      ],
+      "instructions": [
+        "Preheat the oven to 180°C (350°F).",
+        "Cream together the butter, sugar, and brown sugar.",
+        "Add the eggs and vanilla extract and mix until combined.",
+        "In a separate bowl, whisk together the flour, baking soda, and salt.",
+        "Gradually add the dry ingredients to the wet ingredients. Stir in the chocolate chips.",
+        "Drop spoonfuls of dough onto a baking sheet and bake for 10-12 minutes until golden."
+      ]
+    }
+  ]
+}
