@@ -16,6 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+
+// dropdown closes when clicking outside
+document.addEventListener('click', (e) => {
+    const activeDropdown = document.querySelector('.dropdown.active');
+    if (activeDropdown && !activeDropdown.contains(e.target)) {
+        activeDropdown.classList.remove('active');
+    }
+});
+
 // Hero Section Background Image Change
 document.addEventListener('DOMContentLoaded', () => {
     const mainContainer = document.querySelector('.main');
@@ -40,14 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// section four changes
+// Testimonial Slider Functionality (if applicable)
 document.addEventListener('DOMContentLoaded', () => {
     let currentSlide = 0;
     const testimonials = document.querySelectorAll('.testimonial');
     const dots = document.querySelectorAll('.dot');
 
     function showTestimonial(index) {
-        testimonials.forEach((testimonial, i) => {
+        testimonials.forEach((testimonial) => {
             testimonial.classList.remove('active');
         });
         testimonials[index].classList.add('active');
@@ -67,7 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Signup and signin
 document.addEventListener('DOMContentLoaded', () => {
     const signInButton = document.querySelector('.sign-in');
     const signUpButton = document.querySelector('.sign-up');
@@ -84,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Register form submission
     const registerForm = document.getElementById("registerForm");
     if (registerForm) {
         registerForm.addEventListener("submit", (e) => {
@@ -136,16 +145,17 @@ function updateNavbarForLoggedInUser(username) {
         headerActions.innerHTML = '';
     }
 
+    // Creating the user dropdown menu
     const userNav = document.createElement('li');
+    userNav.classList.add('user-nav');
     userNav.innerHTML = `
-        <a href="#">user ▼</a>
+        <a href="#" class="user-nav-link">user <i class="fas fa-chevron-down"></i></a>
         <ul class="dropdown">
             <li><a href="#">My Recipes</a></li>
             <li><a href="#">Add Recipe</a></li>
             <li><a href="#" id="logout">Log Out</a></li>
         </ul>
     `;
-    userNav.classList.add('user-nav');
 
     if (navLinks.firstChild) {
         navLinks.insertBefore(userNav, navLinks.firstChild);
@@ -153,18 +163,26 @@ function updateNavbarForLoggedInUser(username) {
         navLinks.appendChild(userNav);
     }
 
+    // Handle logout click
     document.getElementById('logout').addEventListener('click', () => {
         localStorage.removeItem('loggedInUser');
-        window.location.href = "signin.html";
+        window.location.href = "index.html";
     });
-}
 
-document.addEventListener('DOMContentLoaded', () => {
-    const userNav = document.querySelector('.user-nav');
-    const dropdown = document.querySelector('.dropdown');
+    // Handle dropdown toggle click event
+    const userNavLink = userNav.querySelector('.user-nav-link');
+    const dropdown = userNav.querySelector('.dropdown');
 
-    userNav.addEventListener('click', (e) => {
+    userNavLink.addEventListener('click', (e) => {
         e.preventDefault();
         dropdown.classList.toggle('active');
+        e.stopPropagation(); 
     });
-});
+
+    // Close dropdown if clicking outside of it
+    document.addEventListener('click', (e) => {
+        if (!userNav.contains(e.target)) {
+            dropdown.classList.remove('active');
+        }
+    });
+}
