@@ -77,4 +77,45 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'signup.html';
         });
     }
-})
+
+    const registerForm = document.getElementById("registerForm");
+    if (registerForm) {
+        registerForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            const username = document.getElementById("username").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const password = document.getElementById("password").value;
+
+            const user = {
+                username,
+                email,
+                phone,
+                password,
+            };
+
+            localStorage.setItem(email, JSON.stringify(user));
+            alert("Registration successful!");
+
+            window.location.href = "signin.html";
+        });
+    }
+});
+document.getElementById("loginForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const email = document.getElementById("loginEmail").value;
+    const password = document.getElementById("loginPassword").value;
+
+    const storedUser = JSON.parse(localStorage.getItem(email));
+
+    if (storedUser && storedUser.password === password) {
+        alert("Login successful!");
+        localStorage.setItem('loggedInUser', JSON.stringify(storedUser));
+
+        window.location.href = "index.html"; 
+    } else {
+        alert("Invalid email or password. Please try again.");
+    }
+});
