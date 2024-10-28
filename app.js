@@ -24,6 +24,8 @@ async function fetchRecipes() {
     });
 
   }
+
+  
   fetchRecipes();
   
   
