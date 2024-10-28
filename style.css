@@ -111,7 +111,12 @@ input[type="search"]:focus {
     margin-top: 8rem;
     margin-left: 35rem;
 }
-
+.no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+    margin-top: 20px;
+}
 
 .recipe-container {
     display: grid;
