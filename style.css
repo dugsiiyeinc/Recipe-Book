@@ -73,44 +73,73 @@ header{
 /* Recipes */
 
 
-label {
+/* Search container styling */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8rem;
+    margin-left: 35rem; 
+}
+
+.search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+
+.search-container label {
     font-size: 16px;
     font-weight: bold;
-    margin-right: 10px;
     color: #333;
 }
-  
 
-input[type="search"] {
-    width: 450px;
-    padding: 10px;
+.search-input-wrapper input[type="search"] {
+    width: 100%;
+    padding: 10px 40px 10px 15px; 
     border: 2px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
     transition: border-color 0.3s ease-in-out;
 }
-  
 
-input[type="search"]:hover {
+.search-input-wrapper input[type="search"]:hover {
     border-color: #888;
 }
 
-input[type="search"]:focus {
+.search-input-wrapper input[type="search"]:focus {
     outline: none;
     border-color: #4CAF50;
 }
-#search-btn{
-    margin-left: 1rem;
-    padding: 0.5rem;
-    background-color:  #75C9B7;
+
+.search-input-wrapper .search-icon {
+    position: absolute;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
 }
-  
-.search-container {
-    display: flex;
-    align-items: center;
-    margin-top: 8rem;
-    margin-left: 35rem;
+
+
+#search-btn {
+    padding: 10px 15px;
+    background-color: #75C9B7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
 }
+
+#search-btn:hover {
+    background-color: #5DAF98;
+}
+
 .no-results {
     text-align: center;
     font-size: 1.2rem;
@@ -119,24 +148,26 @@ input[type="search"]:focus {
 }
 
 .recipe-container {
+    width: 90%;
+    max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    /* gap: 3rem;  */
-    row-gap: 20px;
-    column-gap: -20px;
-    padding: 20px;
-    justify-items: center;
-    margin-top: 5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-left: 19rem;
+    align-items: center;
+    margin-top: 3rem;
+
+   
   }
   
 .recipe-card {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
     text-align: center;
-    width: 60%;
+    width: 100%;
     /* max-width: 300px; */
   }
   
@@ -156,6 +187,88 @@ input[type="search"]:focus {
     color: #666;
   }
 
+
+  /* detailed api page */
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9; 
+}
+#recipe-details {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+#recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+#recipe-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin: 15px 0 10px;
+}
+
+
+#recipe-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+
+#recipe-details h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+#recipe-ingredients,
+#recipe-instructions {
+    text-align: left;
+    color: #555;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #75C9B7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none; 
+}
+
+.back-btn:hover {
+    background-color: #75C9B7;
+}
+
+  
 /* about */
 .wrapper {
     max-width: 800px;
@@ -359,6 +472,14 @@ input[type="search"]:focus {
 
    }
 
+   /* Recipes */
+   .search-container {
+    margin-top: 4rem;
+   }
+
+    .recipe-container {
+    padding: 0 1rem;
+    }
 
    /* about */
    .wrapper h1 {
