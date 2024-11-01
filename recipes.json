@@ -2,134 +2,143 @@
   "recipes": [
     {
       "id": 1,
-      "title": "Pasta Carbonara",
-      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-      "image": "/images/image.png",
+      "title": "Chocolate Lava Cake",
+      "description": "A rich and gooey chocolate cake with a molten center.",
+      "image": "/images/Chocolate Lava Cake.png",
       "ingredients": [
-        "200g spaghetti",
-        "100g pancetta",
+        "100g dark chocolate",
+        "100g butter",
+        "50g sugar",
         "2 large eggs",
-        "50g Parmesan cheese, grated",
-        "Salt and pepper to taste"
+        "30g flour",
+        "Vanilla ice cream for serving"
       ],
       "instructions": [
-        "Cook spaghetti according to the package instructions. Drain and set aside.",
-        "In a pan, cook the pancetta until crispy.",
-        "In a bowl, whisk together eggs and grated Parmesan cheese.",
-        "Combine the cooked spaghetti and pancetta in the pan. Remove from heat.",
-        "Pour the egg mixture over the pasta and stir quickly until creamy.",
-        "Season with salt and pepper and serve immediately."
+        "Preheat oven to 200°C (400°F). Grease ramekins with butter.",
+        "Melt chocolate and butter together, stirring until smooth.",
+        "Whisk in sugar, eggs, and flour until just combined.",
+        "Pour into ramekins and bake for 10-12 minutes.",
+        "Serve immediately with vanilla ice cream."
       ]
     },
     {
       "id": 2,
-      "title": "Chicken Soup",
-      "description": "A comforting chicken soup with vegetables and flavorful broth.",
-      "image": "/images/image.png",
+      "title": "Baklava",
+      "description": "A traditional Turkish dessert made of layers of filo pastry, filled with nuts and sweetened with syrup.",
+      "image": "/images/Baklava.png",
       "ingredients": [
-        "1 whole chicken, cut into pieces",
-        "2 carrots, sliced",
-        "2 celery stalks, chopped",
-        "1 onion, chopped",
-        "Salt and pepper to taste"
+        "500g filo pastry",
+        "250g mixed nuts (walnuts, pistachios)",
+        "200g butter, melted",
+        "200g sugar",
+        "100ml water",
+        "2 tablespoons honey",
+        "1 teaspoon cinnamon"
       ],
       "instructions": [
-        "In a large pot, add chicken pieces and cover with water. Bring to a boil and reduce to a simmer.",
-        "Skim off any foam that forms on the surface.",
-        "Add carrots, celery, and onions to the pot.",
-        "Simmer until the chicken is cooked through and the vegetables are tender.",
-        "Season with salt and pepper to taste.",
-        "Serve hot with crusty bread."
+        "Preheat oven to 180°C (350°F). Layer filo sheets in a baking dish, brushing each layer with butter.",
+        "Sprinkle chopped nuts and cinnamon over every few layers.",
+        "Bake for 30-35 minutes until golden.",
+        "Make syrup by boiling sugar, water, and honey. Pour over baked baklava and let it soak."
       ]
     },
     {
       "id": 3,
-      "title": "Vegetable Stir Fry",
-      "description": "A quick and healthy vegetable stir fry with a savory soy sauce.",
-      "image": "/images/image.png",
+      "title": "Tiramisu",
+      "description": "An Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream.",
+      "image": "/images/Tiramisu.png",
       "ingredients": [
-        "1 cup broccoli florets",
-        "1 cup sliced carrots",
-        "1 cup bell peppers, sliced",
-        "2 tablespoons soy sauce",
-        "1 tablespoon sesame oil",
-        "1 teaspoon minced garlic"
+        "200g ladyfingers",
+        "250g mascarpone cheese",
+        "3 large eggs",
+        "100g sugar",
+        "1 cup strong coffee",
+        "Cocoa powder for dusting"
       ],
       "instructions": [
-        "Heat sesame oil in a large pan over medium heat.",
-        "Add minced garlic and sauté until fragrant.",
-        "Add the broccoli, carrots, and bell peppers. Cook until tender-crisp.",
-        "Pour in the soy sauce and toss to coat the vegetables evenly.",
-        "Serve the stir fry over rice or noodles."
+        "Whisk egg yolks with sugar until thick and pale, then fold in mascarpone.",
+        "Dip ladyfingers in coffee and layer them in a dish.",
+        "Spread mascarpone mixture over ladyfingers, alternating layers.",
+        "Chill for at least 4 hours and dust with cocoa powder before serving."
       ]
     },
     {
       "id": 4,
-      "title": "Beef Tacos",
-      "description": "Delicious beef tacos with all the traditional toppings.",
-      "image": "/images/image.png",
+      "title": "Turkish Delight",
+      "description": "A chewy and sweet Turkish confection flavored with rosewater and dusted with powdered sugar.",
+      "image": "/images/Turkish Delight.png",
       "ingredients": [
-        "500g ground beef",
-        "1 packet taco seasoning",
-        "8 small tortillas",
-        "Shredded lettuce",
-        "Diced tomatoes",
-        "Grated cheddar cheese",
-        "Sour cream"
+        "400g sugar",
+        "1 liter water",
+        "50g cornstarch",
+        "1 teaspoon lemon juice",
+        "1 teaspoon rosewater",
+        "Powdered sugar for dusting"
       ],
       "instructions": [
-        "Cook the ground beef in a pan until browned. Drain excess fat.",
-        "Add the taco seasoning and water as per package instructions. Simmer until thickened.",
-        "Warm the tortillas in a separate pan.",
-        "Assemble the tacos with ground beef, shredded lettuce, diced tomatoes, cheese, and a dollop of sour cream."
+        "In a pot, mix water, sugar, and lemon juice. Bring to a boil.",
+        "Dissolve cornstarch in water and add to the pot, stirring constantly.",
+        "Simmer until thick and jelly-like, then add rosewater.",
+        "Pour into a dish to set. Once set, cut into squares and dust with powdered sugar."
       ]
     },
     {
       "id": 5,
-      "title": "Grilled Salmon",
-      "description": "Perfectly grilled salmon with a hint of lemon and herbs.",
-      "image": "/images/image.png",
+      "title": "Red Velvet Cake",
+      "description": "A classic red velvet cake with cream cheese frosting.",
+      "image": "/images/Red Velvet Cake.png",
       "ingredients": [
-        "2 salmon fillets",
-        "1 lemon, sliced",
-        "2 tablespoons olive oil",
-        "Salt and pepper to taste",
-        "1 tablespoon fresh dill"
+        "2 1/2 cups all-purpose flour",
+        "1 1/2 cups sugar",
+        "1 teaspoon baking soda",
+        "1 teaspoon salt",
+        "1 teaspoon cocoa powder",
+        "1 1/2 cups vegetable oil",
+        "1 cup buttermilk, at room temperature",
+        "2 large eggs, at room temperature",
+        "2 tablespoons red food coloring",
+        "1 teaspoon vanilla extract",
+        "1 teaspoon white distilled vinegar",
+        "Cream cheese frosting for topping"
       ],
       "instructions": [
-        "Preheat the grill to medium heat.",
-        "Brush the salmon fillets with olive oil and season with salt, pepper, and fresh dill.",
-        "Place lemon slices on top of the salmon.",
-        "Grill the salmon for about 6-8 minutes per side, until cooked through.",
-        "Serve with additional lemon slices if desired."
+        "Preheat oven to 175°C (350°F). Grease and flour two 9-inch round cake pans.",
+        "In a large bowl, sift together flour, sugar, baking soda, salt, and cocoa powder.",
+        "In another bowl, whisk together the oil, buttermilk, eggs, food coloring, vanilla, and vinegar.",
+        "Mix the wet ingredients into the dry ingredients until just combined.",
+        "Divide the batter between the prepared pans and bake for 25-30 minutes, or until a toothpick inserted in the center comes out clean.",
+        "Let cakes cool in the pans for 10 minutes, then turn out onto a wire rack to cool completely.",
+        "Frost with cream cheese frosting before serving."
       ]
-    },
+    },   
     {
       "id": 6,
-      "title": "Banana Pancakes",
-      "description": "Fluffy banana pancakes perfect for a weekend breakfast.",
-      "image": "/images/image.png",
+      "title": "BBQ Chicken Pizza",
+      "description": "A delicious BBQ chicken pizza topped with mozzarella, red onions, and fresh cilantro.",
+      "image": "/images/BBQ Chicken Pizza.png",
       "ingredients": [
-        "2 ripe bananas, mashed",
-        "2 large eggs",
-        "1 cup flour",
-        "1 cup milk",
-        "1 tablespoon sugar",
-        "1 teaspoon baking powder"
+        "1 pizza dough",
+        "1/2 cup BBQ sauce",
+        "1 cup cooked chicken, shredded",
+        "1 1/2 cups shredded mozzarella cheese",
+        "1/4 cup sliced red onion",
+        "1/4 cup chopped fresh cilantro"
       ],
       "instructions": [
-        "In a bowl, mix the mashed bananas and eggs together.",
-        "Add the flour, milk, sugar, and baking powder. Stir until combined.",
-        "Heat a non-stick pan over medium heat. Pour batter to form small pancakes.",
-        "Cook until bubbles appear on the surface, then flip and cook until golden.",
-        "Serve with maple syrup and fresh fruit."
+        "Preheat oven to 220°C (430°F) and prepare a baking sheet or pizza stone.",
+        "Roll out the pizza dough and spread the BBQ sauce evenly over the base.",
+        "Sprinkle half of the mozzarella cheese over the BBQ sauce.",
+        "Add shredded chicken and red onions on top of the cheese.",
+        "Sprinkle the remaining mozzarella cheese over the chicken and onions.",
+        "Bake for 12-15 minutes, or until the crust is golden and the cheese is bubbly.",
+        "Remove from oven and top with fresh cilantro before slicing and serving."
       ]
-    },
+    },    
     {
       "id": 7,
       "title": "Margarita Pizza",
       "description": "A simple and classic margarita pizza with fresh basil.",
-      "image": "/images/image.png",
+      "image": "/images/Margarita Pizza.png",
       "ingredients": [
         "1 pizza dough",
         "1 cup tomato sauce",
@@ -149,7 +158,7 @@
       "id": 8,
       "title": "Avocado Toast",
       "description": "Simple and healthy avocado toast with a sprinkle of salt and pepper.",
-      "image": "/images/image.png",
+      "image": "/images/Avocado Toast.png",
       "ingredients": [
         "2 slices of bread",
         "1 ripe avocado",
@@ -166,7 +175,7 @@
       "id": 9,
       "title": "Chicken Caesar Salad",
       "description": "Crisp romaine lettuce with grilled chicken, croutons, and Caesar dressing.",
-      "image": "/images/image.png",
+      "image": "/images/Chicken Caesar Salad.png",
       "ingredients": [
         "2 chicken breasts, grilled and sliced",
         "1 head romaine lettuce, chopped",
@@ -182,27 +191,954 @@
     },
     {
       "id": 10,
-      "title": "Chocolate Chip Cookies",
-      "description": "Classic chocolate chip cookies that are soft and chewy.",
-      "image": "/images/image.png",
+      "title": "Strawberry Ice Cream",
+      "description": "Creamy and refreshing homemade strawberry ice cream.",
+      "image": "/images/Strawberry Ice Cream.png",
       "ingredients": [
-        "1 cup butter, softened",
-        "1 cup sugar",
-        "1 cup brown sugar",
-        "2 large eggs",
-        "2 teaspoons vanilla extract",
-        "3 cups flour",
-        "1 teaspoon baking soda",
-        "1/2 teaspoon salt",
-        "2 cups chocolate chips"
+        "2 cups fresh strawberries, hulled and chopped",
+        "3/4 cup sugar, divided",
+        "2 cups heavy cream",
+        "1 cup whole milk",
+        "1 teaspoon vanilla extract",
+        "Pinch of salt"
       ],
       "instructions": [
-        "Preheat the oven to 180°C (350°F).",
-        "Cream together the butter, sugar, and brown sugar.",
-        "Add the eggs and vanilla extract and mix until combined.",
-        "In a separate bowl, whisk together the flour, baking soda, and salt.",
-        "Gradually add the dry ingredients to the wet ingredients. Stir in the chocolate chips.",
-        "Drop spoonfuls of dough onto a baking sheet and bake for 10-12 minutes until golden."
+        "In a small bowl, mix the chopped strawberries with 1/4 cup of sugar and let sit for 15 minutes until they release their juices.",
+        "Mash the strawberries lightly with a fork, leaving some small chunks for texture.",
+        "In a medium bowl, whisk together the heavy cream, whole milk, remaining 1/2 cup sugar, vanilla extract, and salt until the sugar is dissolved.",
+        "Stir in the strawberries and their juices.",
+        "Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions (usually 20-25 minutes).",
+        "Transfer the churned ice cream to a container and cover.",
+        "Freeze for at least 4 hours or until firm before serving.",
+        "Enjoy your homemade strawberry ice cream!"
+      ]
+    },
+    
+    {
+      "id": 11,
+      "title": "Chicken Shawarma",
+      "description": "Juicy and flavorful chicken shawarma with Middle Eastern spices.",
+      "image": "/images/ChickenShawarma.png",
+      "ingredients": [
+        "1 lb boneless chicken thighs",
+        "1/4 cup plain yogurt",
+        "2 tablespoons olive oil",
+        "2 cloves garlic, minced",
+        "1 teaspoon ground cumin",
+        "1 teaspoon ground paprika",
+        "1/2 teaspoon ground turmeric",
+        "1/2 teaspoon ground cinnamon",
+        "1/2 teaspoon ground black pepper",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon ground cardamom",
+        "Juice of 1 lemon"
+      ],
+      "instructions": [
+        "In a large bowl, mix together yogurt, olive oil, garlic, cumin, paprika, turmeric, cinnamon, black pepper, salt, cardamom, and lemon juice to form a marinade.",
+        "Add the chicken thighs to the marinade, coating them well. Cover and refrigerate for at least 1 hour, or overnight for best results.",
+        "Preheat the oven to 425°F (220°C) or heat a grill to medium-high.",
+        "Place the marinated chicken on a baking sheet or grill and cook for 20-25 minutes, turning halfway through, until the chicken is cooked through and has a nice char.",
+        "Remove the chicken from the heat and let it rest for 5 minutes. Slice into thin strips.",
+        "Serve the chicken shawarma in warm pita bread with toppings like lettuce, tomatoes, cucumbers, and a drizzle of garlic sauce or tahini sauce."
+      ]
+    },
+    
+    {
+      "id": 12,
+      "title": "Sushi Rolls",
+      "description": "Delicious homemade sushi rolls filled with fish and vegetables.",
+      "image": "/images/Sushi Rolls.png",
+      "ingredients": [
+        "1 cup sushi rice",
+        "Nori seaweed sheets",
+        "1/2 cucumber, sliced",
+        "1/2 avocado, sliced",
+        "100g raw fish (tuna or salmon)",
+        "Soy sauce for dipping"
+      ],
+      "instructions": [
+        "Cook sushi rice according to package instructions.",
+        "Place a nori sheet on a bamboo mat and spread rice over it.",
+        "Add cucumber, avocado, and fish on top.",
+        "Roll tightly and slice into pieces.",
+        "Serve with soy sauce."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Pad Thai",
+      "description": "Classic Thai stir-fried noodles with shrimp, peanuts, and lime.",
+      "image": "/images/image13.png",
+      "ingredients": [
+        "200g rice noodles",
+        "150g shrimp",
+        "2 tablespoons fish sauce",
+        "1 tablespoon tamarind paste",
+        "1 egg",
+        "1/4 cup peanuts, crushed",
+        "Green onions and lime wedges for garnish"
+      ],
+      "instructions": [
+        "Cook rice noodles according to package instructions.",
+        "Stir-fry shrimp in a pan until cooked.",
+        "Add noodles, fish sauce, tamarind paste, and an egg. Stir until combined.",
+        "Top with peanuts, green onions, and lime wedges."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Veggie Burger",
+      "description": "A delicious and healthy burger made with black beans and vegetables.",
+      "image": "/images/image14.png",
+      "ingredients": [
+        "1 can black beans, drained",
+        "1/2 cup breadcrumbs",
+        "1/4 cup grated carrots",
+        "1/4 cup diced onions",
+        "1 egg",
+        "Salt and pepper to taste",
+        "Burger buns and toppings of choice"
+      ],
+      "instructions": [
+        "Mash the black beans in a bowl and mix in breadcrumbs, carrots, onions, and egg.",
+        "Form into patties and cook in a pan until browned on both sides.",
+        "Serve on a bun with your favorite toppings."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Pho",
+      "description": "Traditional Vietnamese noodle soup with beef and aromatic spices.",
+      "image": "/images/image15.png",
+      "ingredients": [
+        "200g rice noodles",
+        "200g beef slices",
+        "1 liter beef broth",
+        "1 star anise",
+        "1 cinnamon stick",
+        "Fresh basil, cilantro, and bean sprouts for garnish"
+      ],
+      "instructions": [
+        "Cook rice noodles according to package instructions.",
+        "Heat beef broth with star anise and cinnamon stick to infuse flavors.",
+        "Add noodles and beef slices to the broth.",
+        "Top with fresh basil, cilantro, and bean sprouts."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Avocado Toast",
+      "description": "Simple and healthy avocado toast with a sprinkle of salt and pepper.",
+      "image": "/images/image16.png",
+      "ingredients": [
+        "2 slices of bread",
+        "1 ripe avocado",
+        "Salt and pepper to taste",
+        "Red pepper flakes (optional)"
+      ],
+      "instructions": [
+        "Toast the bread slices until golden.",
+        "Mash the avocado in a bowl and season with salt and pepper.",
+        "Spread the mashed avocado on the toast and sprinkle with red pepper flakes if desired."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Tom Yum Soup",
+      "description": "Spicy and sour Thai soup with shrimp and mushrooms.",
+      "image": "/images/image17.png",
+      "ingredients": [
+        "1 liter chicken broth",
+        "200g shrimp",
+        "1 stalk lemongrass",
+        "3 kaffir lime leaves",
+        "1 tablespoon fish sauce",
+        "Mushrooms, sliced"
+      ],
+      "instructions": [
+        "Heat chicken broth with lemongrass and lime leaves.",
+        "Add mushrooms and cook until tender.",
+        "Add shrimp and fish sauce, cooking until shrimp are pink.",
+        "Serve hot."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Stuffed Bell Peppers",
+      "description": "Bell peppers stuffed with seasoned ground beef and rice.",
+      "image": "/images/image18.png",
+      "ingredients": [
+        "4 bell peppers",
+        "200g ground beef",
+        "1 cup cooked rice",
+        "1/2 onion, chopped",
+        "1/2 cup tomato sauce",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cut the tops off the bell peppers and remove seeds.",
+        "Cook ground beef with onions, then mix with rice and tomato sauce.",
+        "Stuff peppers with the beef mixture.",
+        "Bake at 180°C for 25-30 minutes."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Caprese Salad",
+      "description": "Simple Italian salad with tomatoes, mozzarella, and basil.",
+      "image": "/images/image19.png",
+      "ingredients": [
+        "2 large tomatoes, sliced",
+        "1 ball fresh mozzarella, sliced",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Arrange tomato and mozzarella slices on a plate.",
+        "Top with basil leaves and drizzle with olive oil.",
+        "Season with salt and pepper."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Beef Stroganoff",
+      "description": "Classic Russian dish with beef in a creamy mushroom sauce.",
+      "image": "/images/image20.png",
+      "ingredients": [
+        "200g beef strips",
+        "1 cup mushrooms, sliced",
+        "1 onion, chopped",
+        "1/2 cup sour cream",
+        "Salt and pepper to taste",
+        "Noodles for serving"
+      ],
+      "instructions": [
+        "Cook beef in a pan until browned and set aside.",
+        "Sauté mushrooms and onions, then add beef back in.",
+        "Stir in sour cream and season with salt and pepper.",
+        "Serve over noodles."
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Eggplant Parmesan",
+      "description": "Baked eggplant slices with marinara sauce and melted cheese.",
+      "image": "/images/image21.png",
+      "ingredients": [
+        "1 large eggplant, sliced",
+        "1 cup marinara sauce",
+        "1 cup mozzarella cheese, shredded",
+        "1/2 cup Parmesan cheese, grated",
+        "Fresh basil leaves"
+      ],
+      "instructions": [
+        "Arrange eggplant slices on a baking sheet and bake at 180°C for 15 minutes.",
+        "Layer eggplant, marinara sauce, and cheese in a baking dish.",
+        "Bake for another 20 minutes until cheese is melted.",
+        "Top with fresh basil."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Shakshuka",
+      "description": "North African dish with poached eggs in a spicy tomato sauce.",
+      "image": "/images/image22.png",
+      "ingredients": [
+        "1 can tomatoes",
+        "1/2 onion, chopped",
+        "1 bell pepper, chopped",
+        "4 eggs",
+        "1 teaspoon cumin",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook onions and bell pepper until soft.",
+        "Add tomatoes and season with cumin, salt, and pepper.",
+        "Make small wells and crack eggs into them.",
+        "Cover and cook until eggs are set."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Chicken Parmesan",
+      "description": "Breaded chicken breast topped with marinara sauce and melted cheese.",
+      "image": "/images/image23.png",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 cup breadcrumbs",
+        "1 cup marinara sauce",
+        "1/2 cup mozzarella cheese, shredded",
+        "1/4 cup Parmesan cheese, grated"
+      ],
+      "instructions": [
+        "Bread and fry the chicken breasts until golden.",
+        "Top with marinara sauce and cheeses.",
+        "Bake at 180°C for 20 minutes until cheese is melted."
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Ratatouille",
+      "description": "French vegetable dish with eggplant, zucchini, and tomatoes.",
+      "image": "/images/image24.png",
+      "ingredients": [
+        "1 eggplant, sliced",
+        "1 zucchini, sliced",
+        "2 tomatoes, sliced",
+        "1/4 cup olive oil",
+        "Salt and pepper to taste",
+        "Fresh thyme leaves"
+      ],
+      "instructions": [
+        "Layer vegetables in a baking dish, drizzling with olive oil.",
+        "Season with salt, pepper, and thyme.",
+        "Bake at 180°C for 30 minutes."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Falafel",
+      "description": "Crispy chickpea balls served with pita bread and tahini sauce.",
+      "image": "/images/image25.png",
+      "ingredients": [
+        "1 can chickpeas, drained",
+        "1/4 cup chopped parsley",
+        "1/4 cup chopped onion",
+        "2 cloves garlic",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Blend chickpeas, parsley, onion, and garlic until smooth.",
+        "Form into small balls and fry until golden.",
+        "Serve in pita bread with tahini sauce."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "BBQ Ribs",
+      "description": "Slow-cooked pork ribs with barbecue sauce.",
+      "image": "/images/image26.png",
+      "ingredients": [
+        "1 rack pork ribs",
+        "1 cup barbecue sauce",
+        "Salt and pepper to taste",
+        "Garlic powder"
+      ],
+      "instructions": [
+        "Season ribs with salt, pepper, and garlic powder.",
+        "Cook in the oven at 150°C for 2 hours.",
+        "Brush with barbecue sauce and bake for another 30 minutes."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "French Toast",
+      "description": "Classic French toast topped with syrup and fresh fruit.",
+      "image": "/images/image27.png",
+      "ingredients": [
+        "4 slices bread",
+        "2 eggs",
+        "1/2 cup milk",
+        "1 teaspoon cinnamon",
+        "Maple syrup and fresh fruit for serving"
+      ],
+      "instructions": [
+        "Whisk eggs, milk, and cinnamon together.",
+        "Dip bread in the egg mixture and cook in a pan until golden on each side.",
+        "Serve with syrup and fruit."
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Gazpacho",
+      "description": "Cold Spanish tomato soup with cucumbers and bell peppers.",
+      "image": "/images/image28.png",
+      "ingredients": [
+        "4 tomatoes, chopped",
+        "1 cucumber, chopped",
+        "1 bell pepper, chopped",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Blend tomatoes, cucumber, bell pepper, and olive oil until smooth.",
+        "Season with salt and pepper.",
+        "Chill in the fridge for 1 hour before serving."
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Kimchi Fried Rice",
+      "description": "Korean fried rice with kimchi, rice, and egg.",
+      "image": "/images/image29.png",
+      "ingredients": [
+        "1 cup kimchi, chopped",
+        "2 cups cooked rice",
+        "1 egg",
+        "1 green onion, sliced",
+        "Soy sauce"
+      ],
+      "instructions": [
+        "Cook kimchi in a pan until slightly caramelized.",
+        "Add rice and soy sauce, stirring to combine.",
+        "Top with a fried egg and green onions."
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Tuna Poke Bowl",
+      "description": "Hawaiian bowl with fresh tuna, rice, and vegetables.",
+      "image": "/images/image30.png",
+      "ingredients": [
+        "200g tuna, cubed",
+        "1 cup sushi rice",
+        "1/2 avocado, sliced",
+        "1/2 cucumber, sliced",
+        "Soy sauce and sesame oil for dressing"
+      ],
+      "instructions": [
+        "Cook sushi rice according to package instructions.",
+        "Arrange rice in a bowl with tuna, avocado, and cucumber.",
+        "Drizzle with soy sauce and sesame oil."
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Greek Salad",
+      "description": "Fresh salad with cucumber, tomatoes, olives, and feta cheese.",
+      "image": "/images/image31.png",
+      "ingredients": [
+        "1 cucumber, chopped",
+        "2 tomatoes, chopped",
+        "1/4 cup olives",
+        "1/4 cup feta cheese, crumbled",
+        "Olive oil and vinegar for dressing"
+      ],
+      "instructions": [
+        "Combine cucumber, tomatoes, olives, and feta cheese in a bowl.",
+        "Drizzle with olive oil and vinegar.",
+        "Toss to combine and serve."
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Shrimp Scampi",
+      "description": "Classic shrimp scampi in a garlic butter sauce served with pasta.",
+      "image": "/images/image32.png",
+      "ingredients": [
+        "200g shrimp",
+        "3 cloves garlic, minced",
+        "1/4 cup butter",
+        "1/4 cup white wine",
+        "200g pasta, cooked"
+      ],
+      "instructions": [
+        "Melt butter in a pan and add garlic.",
+        "Add shrimp and cook until pink.",
+        "Pour in white wine and simmer for 3 minutes.",
+        "Serve over pasta."
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Quiche Lorraine",
+      "description": "Savory pie with a creamy custard filling of bacon and cheese.",
+      "image": "/images/image33.png",
+      "ingredients": [
+        "1 pie crust",
+        "4 eggs",
+        "1 cup cream",
+        "1/2 cup bacon, cooked and chopped",
+        "1/2 cup cheese, shredded"
+      ],
+      "instructions": [
+        "Preheat oven to 180°C.",
+        "Whisk eggs and cream together.",
+        "Pour into pie crust and add bacon and cheese.",
+        "Bake for 30-35 minutes."
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Beef Bourguignon",
+      "description": "French beef stew braised in red wine with mushrooms and onions.",
+      "image": "/images/image34.png",
+      "ingredients": [
+        "500g beef chunks",
+        "1 cup red wine",
+        "1 cup beef broth",
+        "1/2 cup mushrooms, sliced",
+        "1/2 cup pearl onions"
+      ],
+      "instructions": [
+        "Brown beef in a pot.",
+        "Add wine, broth, mushrooms, and onions.",
+        "Simmer for 2 hours until tender."
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Butter Chicken",
+      "description": "Indian chicken curry in a rich tomato and butter sauce.",
+      "image": "/images/image35.png",
+      "ingredients": [
+        "300g chicken breast, cubed",
+        "1 cup tomato puree",
+        "1/2 cup cream",
+        "2 tbsp butter",
+        "Spices (garam masala, cumin, coriander)"
+      ],
+      "instructions": [
+        "Cook chicken in a pan until browned.",
+        "Add tomato puree, cream, and spices.",
+        "Simmer for 15 minutes, adding butter at the end."
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Hummus",
+      "description": "Middle Eastern dip made from blended chickpeas, tahini, and lemon.",
+      "image": "/images/image36.png",
+      "ingredients": [
+        "1 can chickpeas, drained",
+        "1/4 cup tahini",
+        "2 tablespoons olive oil",
+        "Juice of 1 lemon",
+        "Salt and garlic to taste"
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth.",
+        "Serve with pita bread or veggies."
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Clam Chowder",
+      "description": "Creamy soup with clams, potatoes, and celery.",
+      "image": "/images/image37.png",
+      "ingredients": [
+        "1 can clams, with juice",
+        "1 cup potatoes, diced",
+        "1/2 cup celery, chopped",
+        "1/2 cup cream",
+        "1/4 cup onions, chopped"
+      ],
+      "instructions": [
+        "Cook potatoes, celery, and onions until tender.",
+        "Add clams and juice, then cream.",
+        "Simmer for 10 minutes."
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Gumbo",
+      "description": "Louisiana-style stew with sausage, shrimp, and vegetables.",
+      "image": "/images/image38.png",
+      "ingredients": [
+        "200g sausage, sliced",
+        "200g shrimp",
+        "1/2 cup bell pepper, chopped",
+        "1/2 cup okra, sliced",
+        "1 cup chicken broth"
+      ],
+      "instructions": [
+        "Brown sausage in a pot, then add shrimp.",
+        "Add vegetables and chicken broth.",
+        "Simmer until thickened."
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Lasagna",
+      "description": "Layered pasta dish with meat, ricotta, and mozzarella cheese.",
+      "image": "/images/image39.png",
+      "ingredients": [
+        "200g lasagna noodles",
+        "1 cup ricotta cheese",
+        "1 cup mozzarella cheese, shredded",
+        "1/2 cup Parmesan cheese",
+        "2 cups meat sauce"
+      ],
+      "instructions": [
+        "Layer noodles, ricotta, mozzarella, and meat sauce in a baking dish.",
+        "Repeat layers and top with Parmesan.",
+        "Bake at 180°C for 30 minutes."
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Peking Duck",
+      "description": "Chinese-style roast duck with crispy skin served with pancakes.",
+      "image": "/images/image40.png",
+      "ingredients": [
+        "1 whole duck",
+        "1 tablespoon honey",
+        "2 tablespoons soy sauce",
+        "Pancakes and hoisin sauce for serving"
+      ],
+      "instructions": [
+        "Brush duck with honey and soy sauce.",
+        "Roast at 200°C for 1 hour until crispy.",
+        "Serve with pancakes and hoisin sauce."
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Baked Ziti",
+      "description": "Italian pasta bake with marinara sauce, ricotta, and mozzarella.",
+      "image": "/images/image41.png",
+      "ingredients": [
+        "200g ziti pasta",
+        "1 cup marinara sauce",
+        "1 cup ricotta cheese",
+        "1 cup mozzarella cheese, shredded",
+        "1/4 cup Parmesan cheese"
+      ],
+      "instructions": [
+        "Cook pasta and mix with marinara sauce and ricotta.",
+        "Place in a baking dish and top with mozzarella and Parmesan.",
+        "Bake at 180°C for 25 minutes."
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Chicken Katsu",
+      "description": "Japanese-style breaded chicken cutlet served with tonkatsu sauce.",
+      "image": "/images/image42.png",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 cup panko breadcrumbs",
+        "1 egg, beaten",
+        "1/4 cup flour",
+        "Tonkatsu sauce for serving"
+      ],
+      "instructions": [
+        "Coat chicken in flour, egg, and panko breadcrumbs.",
+        "Fry until golden and serve with tonkatsu sauce."
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Croissant",
+      "description": "Flaky, buttery French pastry.",
+      "image": "/images/image43.png",
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup butter, chilled",
+        "1/2 cup milk",
+        "1 teaspoon salt",
+        "1 teaspoon sugar"
+      ],
+      "instructions": [
+        "Make dough and layer with butter.",
+        "Fold and roll dough several times.",
+        "Shape into croissants and bake at 200°C for 15 minutes."
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Miso Soup",
+      "description": "Traditional Japanese soup with tofu, seaweed, and miso paste.",
+      "image": "/images/image44.png",
+      "ingredients": [
+        "1 tablespoon miso paste",
+        "1 cup dashi broth",
+        "1/4 cup tofu, cubed",
+        "1/4 cup green onions, chopped",
+        "Seaweed"
+      ],
+      "instructions": [
+        "Heat dashi broth and dissolve miso paste in it.",
+        "Add tofu and seaweed, and simmer briefly.",
+        "Serve topped with green onions."
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Thai Green Curry",
+      "description": "Spicy green curry with chicken, coconut milk, and vegetables.",
+      "image": "/images/image45.png",
+      "ingredients": [
+        "200g chicken breast, sliced",
+        "1 cup coconut milk",
+        "1/2 cup green curry paste",
+        "1/2 cup vegetables (zucchini, bell pepper)"
+      ],
+      "instructions": [
+        "Cook chicken with green curry paste in a pan.",
+        "Add coconut milk and vegetables.",
+        "Simmer for 15 minutes."
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Crepes",
+      "description": "Thin French pancakes served with various sweet or savory fillings.",
+      "image": "/images/image46.png",
+      "ingredients": [
+        "1 cup flour",
+        "2 eggs",
+        "1 cup milk",
+        "1 tablespoon butter, melted",
+        "Pinch of salt"
+      ],
+      "instructions": [
+        "Whisk all ingredients until smooth.",
+        "Cook in a non-stick pan, flipping once.",
+        "Serve with desired toppings."
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Stuffed Bell Peppers",
+      "description": "Bell peppers stuffed with seasoned ground meat and rice.",
+      "image": "/images/image47.png",
+      "ingredients": [
+        "4 bell peppers",
+        "200g ground meat",
+        "1 cup cooked rice",
+        "1/4 cup tomato sauce",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cut tops off bell peppers and remove seeds.",
+        "Mix meat, rice, and tomato sauce, and fill peppers.",
+        "Bake at 180°C for 25 minutes."
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Beef Stroganoff",
+      "description": "Russian-style dish with beef strips in a creamy mushroom sauce.",
+      "image": "/images/image48.png",
+      "ingredients": [
+        "200g beef strips",
+        "1/2 cup mushrooms, sliced",
+        "1/4 cup sour cream",
+        "1/4 cup beef broth",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook beef and mushrooms in a pan.",
+        "Add beef broth and simmer until reduced.",
+        "Stir in sour cream and serve."
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Couscous Salad",
+      "description": "Light couscous salad with vegetables and a lemon dressing.",
+      "image": "/images/image49.png",
+      "ingredients": [
+        "1 cup couscous",
+        "1 cup cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/4 cup parsley, chopped",
+        "Lemon juice and olive oil for dressing"
+      ],
+      "instructions": [
+        "Prepare couscous according to package instructions.",
+        "Combine with vegetables and drizzle with dressing.",
+        "Toss to mix and serve."
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Fish Tacos",
+      "description": "Grilled fish tacos with fresh salsa and lime.",
+      "image": "/images/image50.png",
+      "ingredients": [
+        "200g fish fillets",
+        "8 small tortillas",
+        "1/2 cup cabbage, shredded",
+        "1/4 cup salsa",
+        "Lime wedges"
+      ],
+      "instructions": [
+        "Grill fish until cooked through.",
+        "Assemble tacos with fish, cabbage, and salsa.",
+        "Serve with lime wedges."
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Pad Thai",
+      "description": "Popular Thai stir-fried noodles with shrimp, tofu, and peanuts.",
+      "image": "/images/image51.png",
+      "ingredients": [
+        "200g rice noodles",
+        "100g shrimp",
+        "1/4 cup tofu, cubed",
+        "2 tablespoons peanuts, crushed",
+        "1/4 cup bean sprouts",
+        "Pad Thai sauce"
+      ],
+      "instructions": [
+        "Cook noodles according to package instructions and set aside.",
+        "Sauté shrimp and tofu in a pan.",
+        "Add noodles and Pad Thai sauce, stir-fry until combined.",
+        "Garnish with peanuts and bean sprouts."
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Moussaka",
+      "description": "Traditional Greek casserole with layers of eggplant, meat, and béchamel sauce.",
+      "image": "/images/image52.png",
+      "ingredients": [
+        "1 large eggplant, sliced",
+        "300g ground lamb or beef",
+        "1/2 cup tomato sauce",
+        "1 cup béchamel sauce",
+        "1/4 cup grated Parmesan cheese"
+      ],
+      "instructions": [
+        "Layer eggplant slices, meat sauce, and béchamel in a baking dish.",
+        "Top with Parmesan cheese.",
+        "Bake at 180°C for 30-40 minutes until golden."
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Chicken Fajitas",
+      "description": "Sizzling chicken fajitas with bell peppers and onions.",
+      "image": "/images/image53.png",
+      "ingredients": [
+        "2 chicken breasts, sliced",
+        "1 bell pepper, sliced",
+        "1 onion, sliced",
+        "1 tablespoon fajita seasoning",
+        "8 small tortillas"
+      ],
+      "instructions": [
+        "Cook chicken with fajita seasoning in a pan.",
+        "Add bell peppers and onions, and cook until tender.",
+        "Serve in tortillas with toppings of choice."
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Eggplant Parmesan",
+      "description": "Breaded eggplant slices layered with marinara sauce and cheese.",
+      "image": "/images/image54.png",
+      "ingredients": [
+        "1 large eggplant, sliced",
+        "1 cup marinara sauce",
+        "1 cup mozzarella cheese, shredded",
+        "1/4 cup Parmesan cheese",
+        "1 cup breadcrumbs"
+      ],
+      "instructions": [
+        "Bread and bake the eggplant slices until golden.",
+        "Layer with marinara sauce and cheese in a baking dish.",
+        "Bake at 180°C for 25 minutes until bubbly."
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Sushi Rolls",
+      "description": "Classic sushi rolls with rice, nori, and your choice of fillings.",
+      "image": "/images/image55.png",
+      "ingredients": [
+        "2 cups sushi rice, cooked",
+        "4 nori sheets",
+        "1/2 cup cucumber, julienned",
+        "1/2 cup avocado, sliced",
+        "100g salmon or tuna, sliced"
+      ],
+      "instructions": [
+        "Place a nori sheet on a bamboo mat.",
+        "Spread rice over the nori and add fillings.",
+        "Roll tightly and slice into pieces."
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Gazpacho",
+      "description": "Refreshing Spanish cold tomato soup with cucumbers and bell peppers.",
+      "image": "/images/image56.png",
+      "ingredients": [
+        "4 tomatoes, chopped",
+        "1 cucumber, chopped",
+        "1/2 bell pepper, chopped",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth.",
+        "Chill for at least 1 hour before serving.",
+        "Serve with a drizzle of olive oil."
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Poke Bowl",
+      "description": "Hawaiian-style bowl with rice, raw fish, and fresh toppings.",
+      "image": "/images/image57.png",
+      "ingredients": [
+        "200g sushi-grade fish, cubed",
+        "1 cup rice, cooked",
+        "1/2 avocado, sliced",
+        "1/4 cup cucumber, chopped",
+        "Soy sauce and sesame seeds for garnish"
+      ],
+      "instructions": [
+        "Place rice in a bowl and top with fish, avocado, and cucumber.",
+        "Drizzle with soy sauce and sprinkle with sesame seeds."
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Shepherd's Pie",
+      "description": "Traditional British casserole with ground lamb and mashed potatoes.",
+      "image": "/images/image58.png",
+      "ingredients": [
+        "500g ground lamb",
+        "1 cup carrots, chopped",
+        "1 cup peas",
+        "2 cups mashed potatoes",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook lamb with carrots and peas in a pan.",
+        "Transfer to a baking dish and top with mashed potatoes.",
+        "Bake at 180°C for 20 minutes until golden."
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Gnocchi with Pesto",
+      "description": "Italian potato dumplings tossed with fresh basil pesto.",
+      "image": "/images/image59.png",
+      "ingredients": [
+        "200g gnocchi",
+        "1/4 cup pesto sauce",
+        "1/4 cup cherry tomatoes, halved",
+        "Grated Parmesan for garnish"
+      ],
+      "instructions": [
+        "Cook gnocchi according to package instructions.",
+        "Toss with pesto and cherry tomatoes.",
+        "Serve with grated Parmesan on top."
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Pho",
+      "description": "Vietnamese soup with rice noodles, beef, and fresh herbs.",
+      "image": "/images/image60.png",
+      "ingredients": [
+        "200g rice noodles",
+        "200g beef, thinly sliced",
+        "1 liter beef broth",
+        "Fresh herbs (basil, cilantro)",
+        "Bean sprouts and lime wedges for garnish"
+      ],
+      "instructions": [
+        "Cook noodles according to package instructions.",
+        "Bring beef broth to a simmer and add beef slices.",
+        "Serve broth and beef over noodles with fresh herbs and garnishes."
       ]
     }
   ]
