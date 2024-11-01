@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rexipea API</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -27,8 +28,10 @@
     </header>
 
     <div class="search-container">
-        <label for="searching">Search:</label>
-        <input type="search" id="searching" placeholder="Search here " />
+        <div class="search-input-wrapper">
+            <input type="search" id="searching" placeholder="Search here">
+            <img src="images/search.png" alt="Search Icon" class="search-icon">
+        </div>
         <button id="search-btn" onclick="searchRecipe()">Search</button>
     </div>
 
