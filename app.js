@@ -24,8 +24,8 @@ function displayRecipes(recipes) {
     recipes.forEach(recipe => {
       const recipeCard = `
         <div class="recipe-card" onclick="viewRecipeDetails(${recipe.id})" style="cursor: pointer;">
-          <h3>${recipe.title}</h3>
           <img src="${recipe.image}" alt="${recipe.title}" />
+             <h3>${recipe.title}</h3>
           <p>${recipe.description}</p>
         </div>
       `;
