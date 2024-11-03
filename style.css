@@ -232,7 +232,7 @@ header {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  width: 30%;
+  width: 28%;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
@@ -1306,7 +1306,7 @@ h3 {
 
   }
   .hero-buttons button {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 8px 10px;
   }
 
@@ -1323,13 +1323,13 @@ h3 {
   }
 
   /* Secton Three  */
-  .featured-recipes h2{
+  .features-recipes h2{
     font-size: 2rem;
   }
-  .section-description{
+  .features-description{
     font-size: 1rem;
   }
-  .recipe-card {
+  .features-card {
     width: 100%;
     margin-bottom: 20px;
     font-size: 1rem;
