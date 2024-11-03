@@ -779,7 +779,7 @@ header {
 .navbar-links .user-nav a {
   text-decoration: none;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.07em;
   line-height: 60px; 
   display: block;
 }
@@ -795,7 +795,7 @@ header {
 }
 
 .navbar-links .user-nav .dropdown {
-  display: none; 
+  display: none;
   position: absolute;
   top: 100%; 
   left: 0;
@@ -804,14 +804,9 @@ header {
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   width: 180px;
-  /* height: 100%; */
   padding: 15px;
   font-size: 15px;
   z-index: 1000;
-}
-
-.user-nav {
-  position: relative;
 }
 
 .user-nav a {
@@ -822,6 +817,16 @@ header {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+.navbar .user-nav .user-avatar {
+  width: 24px;
+  height: 24px;
+  filter: invert(1) brightness(2); 
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle; 
+  margin-top: 0px;
 }
 
 .user-nav .dropdown {
@@ -836,6 +841,7 @@ header {
   left: 0;
   width: 150px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
 }
 
 .user-nav .dropdown.active {
@@ -859,7 +865,7 @@ header {
 
 
 
-/* Add Recipe  */
+/* Add new recipe  */
 .add-recipe-form {
   width: 90%;
   max-width: 700px;
@@ -878,6 +884,7 @@ header {
   font-weight: bold;
 }
 
+/* Form Group Styles */
 .form-group {
   margin-bottom: 20px;
 }
@@ -901,6 +908,7 @@ header {
   background-color: #fafafa;
 }
 
+/* Focus Styles */
 .form-group input[type="text"]:focus,
 .form-group input[type="file"]:focus,
 .form-group textarea:focus {
@@ -909,11 +917,13 @@ header {
   background-color: #eaf4ea;
 }
 
+/* Textarea Styles */
 .form-group textarea {
   resize: vertical;
   min-height: 100px;
 }
 
+/* Submit Button Styles */
 .submit-btn {
   width: 100%;
   background-color: #3ba757;
@@ -938,13 +948,14 @@ header {
 /* View Recipes  */
 .page-title {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 20px;
   font-size: 2rem;
   color: #1f2053;
   font-weight: bold;
 }
 
+/* Container for Recipes */
 .recipes-container {
   min-height: 90vh;
   display: flex;
@@ -957,10 +968,11 @@ header {
   width: 90%;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+  gap: 20px;
 }
 
+/* Recipe Card Styling */
 .recipe-card {
   background-color: white;
   border-radius: 15px;
@@ -973,45 +985,58 @@ header {
 
 .recipe-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .recipe-card img {
   width: 100%;
-  height: 180px; 
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  height: auto;
+  border-radius: 12px;
 }
 
 .recipe-card h3 {
-  font-size: 1.6rem;
-  color: #1f2053;
-  margin-bottom: 10px;
-}
-
-.recipe-card p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.ingredients {
+  font-size: 24px;
+  color: #2c3e50;
   margin-top: 15px;
 }
 
-.ingredients h4 {
-  font-size: 1.2rem;
-  color: #1f2053;
-  margin-bottom: 8px;
+.recipe-card p {
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
 }
 
-.ingredients ul {
-  list-style: disc;
-  padding-left: 20px;
-  color: #333;
+/* Recipe Card Buttons */
+.recipe-card button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+/* Edit Button */
+.edit-recipe-btn {
+  background-color: #4CAF50; /* Green color for edit button */
+  color: white;
+}
+
+.edit-recipe-btn:hover {
+  background-color: #45A049;
+}
+
+/* Delete Button */
+.delete-recipe-btn {
+  background-color: #f44336; /* Red color for delete button */
+  color: white;
+}
+
+.delete-recipe-btn:hover {
+  background-color: #e53935;
+}
 
 
 
@@ -1267,12 +1292,39 @@ header {
     color: white;
   }
 
+
+
+  /* Add new recipe  */
+  .add-recipe-form {
+    padding: 20px;
+}
+
+.add-recipe-form h1 {
+    font-size: 22px;
+}
+
+.form-group label,
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group textarea,
+.submit-btn {
+    font-size: 14px;
+}
+
+.submit-btn {
+    padding: 12px;
+}
+
   /* View recipes  */
   .recipe-list {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr; 
   }
 
+  .recipe-card {
+    width: 90%; 
+    margin: 0 auto;
+  }
   .recipe-card img {
-    height: 160px; 
+    height: 180px; 
   }
 }
