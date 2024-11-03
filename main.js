@@ -277,6 +277,86 @@ function createRecipeCard(recipe, index, userEmail) {
   return recipeCard;
 }
 
+function deleteRecipe(index, userEmail) {
+  const recipes =
+    JSON.parse(localStorage.getItem(`recipes_${userEmail}`)) || [];
+  recipes.splice(index, 1);
+  localStorage.setItem(`recipes_${userEmail}`, JSON.stringify(recipes));
+  displayRecipes(userEmail);
+}
+
+// Edit Recipe Functionality
+function showEditForm(index, userEmail) {
+  const recipes =
+    JSON.parse(localStorage.getItem(`recipes_${userEmail}`)) || [];
+  const recipeToEdit = recipes[index];
+
+  const editFormHTML = `
+          <div id="editRecipeFormContainer" class="edit-recipe-form-container">
+              <form id="editRecipeForm">
+                  <h2>Edit Recipe</h2>
+                  <label for="editRecipeTitle">Title:</label>
+                  <input type="text" id="editRecipeTitle" value="${recipeToEdit.title}" required>
+                  <label for="editRecipeDescription">Description:</label>
+                  <textarea id="editRecipeDescription" required>${recipeToEdit.description}</textarea>
+                  <label for="editRecipeIngredients">Ingredients:</label>
+                  <textarea id="editRecipeIngredients" required>${recipeToEdit.ingredients}</textarea>
+                  <label for="editRecipeImage">Change Image (if needed):</label>
+                  <input type="file" id="editRecipeImage" accept="image/*">
+                  <button type="submit" class="save-btn">Save Changes</button>
+                  <button type="button" class="cancel-btn">Cancel</button>
+              </form>
+          </div>
+    `;
+
+  document.body.insertAdjacentHTML("beforeend", editFormHTML);
+  const editRecipeForm = document.getElementById("editRecipeForm");
+  const editRecipeFormContainer = document.getElementById(
+    "editRecipeFormContainer"
+  );
+
+  editRecipeForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const updatedTitle = document.getElementById("editRecipeTitle").value;
+    const updatedDescription = document.getElementById(
+      "editRecipeDescription"
+    ).value;
+    const updatedIngredients = document.getElementById(
+      "editRecipeIngredients"
+    ).value;
+    const imageInput = document.getElementById("editRecipeImage");
+    const imageFile = imageInput.files[0];
+
+    if (imageFile) {
+      getBase64(imageFile, (base64Image) => {
+        recipes[index] = {
+          title: updatedTitle,
+          description: updatedDescription,
+          ingredients: updatedIngredients,
+          image: base64Image,
+        };
+        localStorage.setItem(`recipes_${userEmail}`, JSON.stringify(recipes));
+        document.body.removeChild(editRecipeFormContainer);
+        displayRecipes(userEmail);
+      });
+    } else {
+      recipes[index] = {
+        title: updatedTitle,
+        description: updatedDescription,
+        ingredients: updatedIngredients,
+        image: recipeToEdit.image,
+      };
+      localStorage.setItem(`recipes_${userEmail}`, JSON.stringify(recipes));
+      document.body.removeChild(editRecipeFormContainer);
+      displayRecipes(userEmail);
+    }
+  });
+
+  document.querySelector(".cancel-btn").addEventListener("click", () => {
+    document.body.removeChild(editRecipeFormContainer);
+  });
+}
+
 // Recipe Modal Functionality
 document.addEventListener("DOMContentLoaded", () => {
   const selectedRecipe = JSON.parse(localStorage.getItem("selectedRecipe"));

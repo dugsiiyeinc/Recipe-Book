@@ -1005,7 +1005,6 @@ header {
   margin-top: 10px;
 }
 
-/* Recipe Card Buttons */
 .recipe-card button {
   display: inline-block;
   padding: 10px 20px;
@@ -1018,9 +1017,104 @@ header {
   transition: all 0.3s ease;
 }
 
-/* Edit Button */
+
+
+/* Modal Styling */
+.modal {
+  display: none; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-size: cover; 
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+  padding: 20px;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border: none;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  position: relative;
+  margin: auto;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #aaa;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close:hover,
+.close:focus {
+  color: #ff4757;
+}
+
+.modal-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2, p {
+  margin: 10px 0;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #444;
+}
+
+.modal h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.modal p {
+  color: #555;
+  line-height: 1.6;
+}
+/* Go Back button styling */
+.go-back {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-back:hover,
+.go-back:focus {
+  background-color: #e63946;
+  outline: none;
+}
+
+
+
+
 .edit-recipe-btn {
-  background-color: #4CAF50; /* Green color for edit button */
+  background-color: #4CAF50; 
   color: white;
 }
 
@@ -1028,9 +1122,8 @@ header {
   background-color: #45A049;
 }
 
-/* Delete Button */
 .delete-recipe-btn {
-  background-color: #f44336; /* Red color for delete button */
+  background-color: #f44336; 
   color: white;
 }
 
@@ -1038,7 +1131,66 @@ header {
   background-color: #e53935;
 }
 
+.edit-recipe-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
 
+#editRecipeForm {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+#editRecipeForm label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+#editRecipeForm input,
+#editRecipeForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.save-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
 
 
 /* Responsive Style*/
@@ -1327,4 +1479,23 @@ header {
   .recipe-card img {
     height: 180px; 
   }
+
+  /* Modal Styling */
+  .modal-content {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .modal h2 {
+    font-size: 1.5rem;
+  }
+
+  .modal p {
+    font-size: 1rem;
+  }
+
+  .close {
+    font-size: 20px;
+  }
+  
 }
