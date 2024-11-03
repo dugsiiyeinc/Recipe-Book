@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Check if user is already logged in
+  // Check if user is logged in
   const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
   if (loggedInUser) {
     updateNavbarForLoggedInUser(loggedInUser.username);
@@ -20,7 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const mainContainer = document.querySelector(".main");
 
   if (mainContainer) {
-    const images = ["image1.png", "image2.png", "img_5.jpg", "img_6.jpg"];
+    const images = [
+      "images/image1.png",
+      "images/image2.png",
+      "images/img_5.jpg",
+      "images/img_6.jpg",
+    ];
 
     let currentIndex = 0;
 
@@ -34,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// Testimonial Slider Functionality
+// section four Functionality
 document.addEventListener("DOMContentLoaded", () => {
   let currentSlide = 0;
   const testimonials = document.querySelectorAll(".testimonial");
@@ -135,7 +140,7 @@ function updateNavbarForLoggedInUser(username) {
   userNav.innerHTML = `
         <a href="#" class="user-nav-link">
         <span>User</span>
-        <img src="down-arrow.png" alt="User Avatar" class="user-avatar">
+        <img src="images/down-arrow.png" alt="User Avatar" class="user-avatar">
          </a>
             <ul class="dropdown">
                 <li><a href="my-recipes.html">My Recipes</a></li>
@@ -174,12 +179,6 @@ function getBase64(file, callback) {
   reader.readAsDataURL(file);
   reader.onload = () => callback(reader.result);
   reader.onerror = (error) => console.error("Error: ", error);
-}
-
-// click to Show Recipe Modal
-function showRecipeModal(recipe) {
-  localStorage.setItem("selectedRecipe", JSON.stringify(recipe));
-  window.location.href = "modal.html";
 }
 
 // Add Recipe Form Submission
@@ -355,6 +354,12 @@ function showEditForm(index, userEmail) {
   document.querySelector(".cancel-btn").addEventListener("click", () => {
     document.body.removeChild(editRecipeFormContainer);
   });
+}
+
+// click to Show Recipe Modal
+function showRecipeModal(recipe) {
+  localStorage.setItem("selectedRecipe", JSON.stringify(recipe));
+  window.location.href = "modal.html";
 }
 
 // Recipe Modal Functionality
