@@ -6,54 +6,91 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+/* header */
+header {
     background-color: #1f2053;
-    position: fixed; 
+    position: fixed;
     width: 100%;
-    height:5rem;
-    top: 0; 
+    top: 0;
     z-index: 1000;
-    font-size: 1.2rem;
-}
-.navbar{
+    padding-top: 15px;
+  }
+  .navbar {
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 0 500px;
-    margin-top: 1rem;
-    
-}
-.brand-title{
+    padding: 0 250px;
+  }
+  .navbar img{
+    width: 7rem;
+    height: 4rem;
+    margin-top: -20px;
+  }
+  .brand-title {
     font-size: 1.5em;
     line-height: 60px;
-}
-.navbar-links{
+  }
+  .navbar-links {
     height: 100%;
-    
-}
-.navbar-links ul{
+    display: flex;
+  }
+  .navbar-links ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.navbar-links li{
+  }
+  
+  .navbar-links li {
     padding: 0 20px;
-
-}
-.navbar-links a{
+    font-size: 1rem;
+  }
+  .navbar-links a {
     text-decoration: none;
     color: white;
     font-size: 1em;
     line-height: 60px;
     display: block;
-}
-
-
-
-.togle-button{
+  }
+  .navbar-links a:hover{
+    color: rgb(185, 185, 185);
+  }
+  .header-actions {
+    /* display: flex; */
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .sign-in, .sign-up {
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 2rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .sign-up {
+    background-color: #75C9B7;; 
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .sign-in:hover {
+    opacity:0.8;
+    color: rgb(185, 185, 185);
+  }
+  .sign-up:hover{
+    opacity:0.8;
+    background-color: responsive;
+  }
+ 
+  
+    /* togle responsive */
+  .togle-button {
     position: absolute;
     top: 15px;
     right: 20px;
@@ -62,18 +99,16 @@ header{
     justify-content: space-between;
     width: 30px;
     height: 21px;
-}
-.togle-button .bar{
+  }
+  .togle-button .bar {
     height: 3px;
     width: 100%;
     background-color: white;
-    border-radius: 10px;
-}
+    border-radius: 10px;
+  }
 
-/* Recipes */
+/* Recipes page api */
 
-
-/* Search container styling */
 .search-container {
     display: flex;
     align-items: center;
@@ -91,7 +126,6 @@ header{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 50%;
 }
-
 
 .search-container label {
     font-size: 16px;
@@ -302,8 +336,6 @@ header{
     text-align: center;
 }
 
-
-
 .section h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -424,64 +456,163 @@ header{
 
 
 
+  /* responsive */
 
 @media (max-width : 768px){
-    .navbar{
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
-        padding: 0 60px;
-    }
-    .togle-button{
+        padding: 0 10px;
+      }
+      
+      .navbar img{
+        margin-top: -20px;
+      }
+    
+      .togle-button {
         display: flex;
-    }
-    .navbar-links{
+        cursor: pointer;
+        margin-top: 5px;
+      }
+    
+      .navbar-links {
         width: 100%;
         max-height: 0;
         overflow: hidden;
         opacity: 0;
-        transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out ;
-
-    }
-    .navbar-links ul{
+        transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out;
+        flex-direction: column;
+      }
+    
+      .navbar-links ul {
         flex-direction: column;
         width: 100%;
-    }
-    .navbar-links ul li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .navbar-links ul li {
+        width: 100%;
         text-align: center;
-    }
-    .navbar-links a{
-        padding: 10px;
+        /* padding: 10px 0; */
+      }
+    
+      .navbar-links a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 0;
+        display: block;
+        font-size: 1rem;
         line-height: 20px;
-    }
-    .navbar.active .navbar-links{
-        max-height: 300px;
+      }
+    
+      .header-actions {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        margin-left: -10px;
+      }
+    
+      .sign-in, .sign-up {
+        width: 100%;
+        padding: 10px 15px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+      }
+    
+      .sign-up {
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        
+      }
+    
+      .sign-in:hover, .sign-up:hover {
+        opacity: 0.8;
+      }
+    
+      .navbar.active .navbar-links {
+        max-height: 600px; 
         opacity: 1;
-        transition: max-height 0.7s ease-in, opacity 0.7s ease-in ;
-    }
-
-    /*  */
-
-    .navbar.active .togle-button .bar:nth-child(2){
+      }
+    
+      /* togggle */
+    
+      .navbar.active .togle-button .bar:nth-child(2) {
         opacity: 0;
+      }
+      .navbar.active .togle-button .bar:nth-child(1) {
+        transform: translateY(9px) rotate(46deg);
+      }
+      .navbar.active .togle-button .bar:nth-child(3) {
+        transform: translateY(-9px) rotate(-46deg);
     }
-    .navbar.active .togle-button .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .navbar.active .togle-button .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-
-   }
 
    /* Recipes */
-   .search-container {
-    margin-top: 4rem;
-   }
 
-    .recipe-container {
-    padding: 0 1rem;
+    .search-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 5rem;
+        margin-left: 0;
+        width: 100%;
     }
 
-   /* about */
+    .search-input-wrapper {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    #search-btn {
+        width: 90%;
+        max-width: 500px;
+        padding: 10px;
+    }
+
+   
+    .recipe-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 2rem auto;
+        gap: 1.5rem;
+    }
+
+    .recipe-card {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .recipe-card img {
+        border-radius: 8px;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .recipe-card h3 {
+        font-size: 1.1rem;
+        margin: 10px 0 5px;
+    }
+
+    .recipe-card p {
+        font-size: 0.9rem;
+    }
+
+   
+    .search-input-wrapper input[type="search"] {
+        font-size: 0.9rem;
+    }
+
+    #search-btn {
+        font-size: 0.9rem;
+    }
+ /* about */
    .wrapper h1 {
     font-size: 2rem;
     }
