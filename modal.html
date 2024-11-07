@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="recipeModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-image-container">
+          <img id="modalImage" src="" alt="Recipe Image" />
+        </div>
+        <h2 id="modalTitle">Recipe Title</h2>
+        <p id="modalDescription">Recipe Description</p>
+        <h3>Ingredients:</h3>
+        <p id="modalIngredients"></p>
+        <button id="goBackButton" class="go-back" onclick="goBack()">Go Back</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

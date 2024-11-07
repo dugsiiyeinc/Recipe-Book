@@ -13,7 +13,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="brand-title">Recipe Book</div>
+        <img src="images/logo.png" alt="" class="logo">
         <a href="#" class="togle-button">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -21,32 +21,256 @@
         </a>
         <div class="navbar-links">
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#service">Recipes</a></li>
-            <li><a href="#portfolio">About</a></li>
-            <li><a href="#blog">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipe">Recipes</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
+          <div class="header-actions">
+            <button class="sign-in">Sign In</button>
+            <button class="sign-up">Sign Up</button>
+          </div>
         </div>
       </nav>
     </header>
 
+    <!-- Hero section -->
     <main class="main">
-      <div>
-        <h1>
-          Healthy Diet <br />
-          Everyday
-        </h1>
+      <div class="hero-content">
+        <h1>Welcome to Recipe Book</h1>
         <p>
-          order today and receive your <br />
-          package tomorrow
+          Explore a world of flavors with our curated collection of recipes.
+          Embrace new culinary adventures and make every meal special.
         </p>
-        <input type="submit" value="Explore Recipes" />
-        <input type="submit" value="Get Started" />
-        <h3>Featured Recipe</h3>
-        <h5>Find new inspiration →</h5>
+        <div class="hero-buttons">
+          <button class="Recipes">Browse Recipes</button>
+          <button class="Categories">Discover Categories</button>
+        </div>
       </div>
-      <figure id="image-container"></figure>
     </main>
+
+    <!-- Section two  -->
+    <div></div>
+    <section class="why-choose-us">
+      <h2>Why Choose Recipe Book?</h2>
+      <p class="section-description">
+        Discover why Recipe Book is the ultimate tool for managing and
+        discovering new recipes.
+      </p>
+      <div class="reasons">
+        <!-- Existing 4 reasons -->
+        <div class="reason-card">
+          <div class="icon-bg">
+            <i class="fas fa-book-open reason-icon"></i>
+          </div>
+          <h3>Easy Recipe Management</h3>
+          <p>
+            Organize, categorize, and search through your recipes easily,
+            keeping them all in one place.
+          </p>
+        </div>
+        <div class="reason-card">
+          <div class="icon-bg">
+            <i class="fas fa-carrot reason-icon"></i>
+          </div>
+          <h3>Ingredient-Based Suggestions</h3>
+          <p>
+            Get recipe recommendations based on the ingredients you have,
+            reducing waste and making meal planning easier.
+          </p>
+        </div>
+        <div class="reason-card">
+          <div class="icon-bg">
+            <i class="fas fa-tags reason-icon"></i>
+          </div>
+          <h3>Customizable Tags</h3>
+          <p>
+            Create and organize tags like "Quick Meals", "Vegetarian", and
+            "Family Favorites" to easily find your go-to dishes.
+          </p>
+        </div>
+        <div class="reason-card">
+          <div class="icon-bg">
+            <i class="fas fa-utensils reason-icon"></i>
+          </div>
+          <h3>API Integration</h3>
+          <p>
+            Stay inspired with fresh meal ideas by integrating with APIs that
+            offer trending and seasonal recipes.
+          </p>
+        </div>
+
+        <!-- New 4 reasons -->
+        <div class="reason-card">
+          <div class="icon-bg">
+            <i class="fas fa-calendar-alt reason-icon"></i>
+          </div>
+          <h3>Meal Planning</h3>
+          <p>
+            Plan your weekly meals easily by selecting recipes, creating grocery
+            lists, and organizing your cooking schedule.
+          </p>
+        </div>
+        <div class="reason-card">
+          <div class="icon-bg">
+            <i class="fas fa-apple-alt reason-icon"></i>
+          </div>
+          <h3>Nutritional Information</h3>
+          <p>
+            Track the nutritional content of your meals and ensure that you're
+            maintaining a balanced diet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section three  -->
+    <section class="features-recipes">
+      <h2>Featured Recipes</h2>
+
+      <p class="features-description">
+        Explore our most-loved and exciting recipes, handpicked for you.
+      </p>
+      <div class="features-cards">
+        <div class="features-card">
+          <div class="features-image-container">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1664472619078-9db415ebef44?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U3BhZ2hldHRpJTIwQm9sb2duZXNlfGVufDB8fDB8fHww"
+              alt="Spaghetti Bolognese"
+            />
+          </div>
+          <h3>Spaghetti Bolognese</h3>
+          <p>A classic Italian pasta dish made with rich, meaty sauce.</p>
+          <button class="view-recipe-btn">View Recipe</button>
+        </div>
+        <div class="features-card">
+          <div class="features-image-container">
+            <img
+              src="https://images.unsplash.com/photo-1529042410759-befb1204b468"
+              alt="Vegetarian Tacos"
+            />
+          </div>
+          <h3>Vegetarian Tacos</h3>
+          <p>
+            Delicious, healthy tacos filled with fresh vegetables and spices.
+          </p>
+          <button class="view-recipe-btn">View Recipe</button>
+        </div>
+        <div class="features-card">
+          <div class="features-image-container">
+            <img
+              src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hvY29sYXRlJTIwQ2FrZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="Chocolate Cake"
+            />
+          </div>
+          <h3>Chocolate Cake</h3>
+          <p>
+            Indulge in this rich, moist chocolate cake with a creamy frosting.
+          </p>
+          <button class="view-recipe-btn">View Recipe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section four  -->
+    <section class="testimonial-slider">
+      <h2>What Our Clients Say!</h2>
+      <p class="section-description">
+        See how Recipe Book has helped home cooks and food lovers organize
+        their meals.
+      </p>
+
+      <div class="testimonial-container">
+        <div class="testimonial active fade">
+          <div class="testimonial-content">
+            <img
+              src="https://media.istockphoto.com/id/1623086781/photo/happy-business-owner-managing-a-bakery-and-using-a-digital-tablet.jpg?s=612x612&w=0&k=20&c=amo1GKKbAZ9pvd03vLjyH8FLjjfVe1KAaX7MTzowk-0="
+              alt="Client 1"
+              class="testimonial-image"
+            />
+            <div class="testimonial-text">
+              <p class="quote">
+                "This platform helped me become a Full Stack Developer. The
+                teachers and courses are excellent."
+              </p>
+              <h3>Ali Isak Halane</h3>
+              <p class="position">ICT Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial fade">
+          <div class="testimonial-content">
+            <img
+              src="https://media.istockphoto.com/id/1765589617/photo/domestic-culinary.jpg?s=612x612&w=0&k=20&c=cUvBGSWxP6o1Dc8PirTq5oFh0RJbtkmIW4Zu6YFUdRs="
+              alt="Client 2"
+              class="testimonial-image"
+            />
+            <div class="testimonial-text">
+              <p class="quote">
+                "The learning experience was amazing. I was able to complete the
+                course while working."
+              </p>
+              <h3>Sara Mohamed</h3>
+              <p class="position">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial fade">
+          <div class="testimonial-content">
+            <img
+              src="https://media.istockphoto.com/id/1453737874/photo/sushi-restaurant.jpg?s=612x612&w=0&k=20&c=sivTSKQPJ6IulfMa-KwJd9fT7Sw2QSYYT7RuIdx50pc="
+              alt="Client 3"
+              class="testimonial-image"
+            />
+            <div class="testimonial-text">
+              <p class="quote">
+                "The platform is very user-friendly and helped me master
+                programming in a short time."
+              </p>
+              <h3>Ahmed Ali</h3>
+              <p class="position">Web Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dots">
+        <span class="dot active" onclick="currentTestimonial(1)"></span>
+        <span class="dot" onclick="currentTestimonial(2)"></span>
+        <span class="dot" onclick="currentTestimonial(3)"></span>
+      </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="images/logo.png" alt="">
+                <p>© 2024 Recipe Book. All rights reserved.</p>
+            </div>
+            <div class="footer-middle">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-resources">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h4>Contact Us</h4>
+                <p>Email: contact@recipebook.com</p>
+                <p>Phone: +252b615555555</p>
+            </div>
+        </div>
+    </footer>
+    
 
     <script src="main.js"></script>
   </body>
