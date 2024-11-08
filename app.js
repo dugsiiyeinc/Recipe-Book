@@ -120,16 +120,3 @@ if (document.getElementById('recipe-results')) {
 } else if (document.getElementById('recipe-details')) {
   loadRecipeDetails();
 }
-
-// Event listener for DOM content loaded to enable navbar toggle
-document.addEventListener('DOMContentLoaded', () => {
-
-  const toggleButton = document.querySelector('.togle-button');
-  const navbar = document.querySelector('.navbar');
-
-  if (toggleButton && navbar) {
-      toggleButton.addEventListener('click', function () {
-          navbar.classList.toggle('active');
-      });
-  }
-});
