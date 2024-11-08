@@ -380,3 +380,34 @@ document.addEventListener("DOMContentLoaded", () => {
 function goBack() {
   window.history.back();
 }
+
+
+
+
+
+
+const toggleButton = document.getElementById('theme-toggle-btn');
+const body = document.body;
+
+// Check if dark mode was previously enabled
+if (localStorage.getItem('darkMode') === 'enabled') {
+    body.classList.add('dark-mode');
+    toggleButton.textContent = '🌙'; // Set icon for dark mode
+} else {
+    toggleButton.textContent = '🌞'; // Set icon for light mode
+}
+
+// Toggle dark mode and save preference to localStorage
+toggleButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+
+    // Update button icon based on the current mode
+    if (body.classList.contains('dark-mode')) {
+        toggleButton.textContent = '🌙'; // Dark mode icon
+        localStorage.setItem('darkMode', 'enabled'); // Save preference
+    } else {
+        toggleButton.textContent = '🌞'; // Light mode icon
+        localStorage.setItem('darkMode', 'disabled'); // Save preference
+    }
+});
+
