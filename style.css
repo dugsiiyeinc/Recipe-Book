@@ -7,7 +7,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #f5f5f5;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -77,7 +77,7 @@ header {
 }
 
 .sign-up {
-  background-color: green; 
+  background-color: #75C9B7; 
   border-radius: 5px;
   color: white;
 }
@@ -90,6 +90,469 @@ header {
   opacity:0.8;
   background-color: responsive;
 }
+
+/* Light Mode and Dark Mode */
+:root {
+  --background-color: #ffffff;
+  --text-color: #1a1a1a;
+  --header-background-color: #1f2053; 
+}
+
+/*Light Mode */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+header {
+  background-color: var(--header-background-color);
+  color: var(--text-color);
+  padding: 15px;
+}
+
+/* Specific box/card styling for light mode */
+.reasons .reason-card,
+.features-card,
+.testimonial-content {
+  background-color: var(--card-background);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Text and heading styles in light mode */
+h1, h2, h3, h4, p {
+  color: var(--paragraph-color);
+}
+p.quote {
+  color: var(--text-color);
+  font-style: italic; /* Optional: to make quotes stand out */
+}
+
+/* Form Section Styling */
+.form-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.form-container {
+  background-color: var(--card-background);
+  color: var(--text-color);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.form-container h2 {
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Login Form Section */
+.login-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.login-container {
+  background-color: var(--card-background);
+  color: var(--text-color);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.login-container h2 {
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+
+
+.contact-info,
+.contact-form {
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.contact-info h2 {
+  color: var(--heading-color);
+}
+
+.contact-info p,
+.contact-details p {
+  color: var(--paragraph-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: var(--input-background);
+  color: var(--input-text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Add recipes section */
+.add-recipe-form {
+  background-color: var(--card-background);
+  color: #ffffff; /* Set text color to white */
+  padding: 30px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for card effect */
+  text-align: left;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.add-recipe-form h1 {
+  color: #ffffff; /* White heading */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-recipe-form label {
+  color: #ffffff; /* White label text */
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.add-recipe-form input[type="text"],
+.add-recipe-form input[type="file"],
+.add-recipe-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 6px; /* Rounded input fields */
+  background-color: #333;
+  color: #ffffff; /* White input text */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.page-title {
+  color: var(--heading-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Recipe Card Styles for Light Mode */
+.recipe-card {
+  background-color: var(--card-background);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+  color: var(--heading-color);
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.recipe-card p {
+  color: var(--paragraph-color);
+  font-weight: lighter;
+}
+
+.modal-content {
+  background-color: var(--modal-background);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.modal-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.modal-content h2,
+.modal-content h3 {
+  color: var(--heading-color);
+}
+
+.modal-content p {
+  color: var(--text-color);
+}
+
+
+
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+  --background-color: #181818;
+  --text-color: #f0f0f0;
+  --header-background-color: #181818;
+  --card-background: #333333;
+  --heading-color: #ffffff;
+  --paragraph-color: #f0f0f0;
+  --input-background: #bbbaba;
+  --input-text-color: #f0f0f0;
+  --modal-background: #333333;
+}
+
+/* Dark mode for specific sections */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4,
+body.dark-mode p.quote,
+body.dark-mode p {
+  color: var(--paragraph-color);
+}
+
+body.dark-mode .reasons .reason-card,
+body.dark-mode .features-card,
+body.dark-mode .testimonial-content {
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+
+body.dark-mode .form-container {
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+
+body.dark-mode .form-container h2 {
+  color: var(--heading-color);
+}
+body.dark-mode .contact-info {
+  background-color: #75C9B7; /* Darker color for dark mode */
+  color: white; /* Keep text color white */
+}
+
+body.dark-mode .form-container input[type="text"],
+body.dark-mode .form-container input[type="email"],
+body.dark-mode .form-container input[type="password"] {
+  background-color: #444;
+  color: var(--text-color);
+  border: 1px solid #666;
+}
+
+body.dark-mode .login-container {
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+
+body.dark-mode .login-container h2 {
+  color: var(--heading-color);
+}
+
+body.dark-mode .login-container input[type="email"],
+body.dark-mode .login-container input[type="password"] {
+  background-color: #444;
+  color: var(--text-color);
+  border: 1px solid #666;
+}
+
+body.dark-mode .contact-container
+ {
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+
+body.dark-mode .contact-info h2 {
+  color: var(--heading-color);
+}
+
+body.dark-mode .contact-info p,
+body.dark-mode .contact-details p {
+  color: var(--paragraph-color);
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background-color: var(--input-background);
+  color: var(--input-text-color);
+  border: 1px solid #666;
+}
+
+
+
+body.dark-mode .add-recipe-form {
+  background-color: #333333;
+  color: #ffffff; /* White text in dark mode */
+}
+body.dark-mode .add-recipe-form label {
+  color: #ffffff; /* Ensure white label text in dark mode */
+}
+body.dark-mode .add-recipe-form input[type="text"],
+body.dark-mode .add-recipe-form input[type="file"],
+body.dark-mode .add-recipe-form textarea {
+  background-color: #444444;
+  color: #ffffff; /* White text in input fields */
+  border: 1px solid #555555;
+}
+
+
+
+
+body.dark-mode .page-title,
+body.dark-mode .recipe-card h3 {
+  color: var(--heading-color);
+}
+
+body.dark-mode .recipe-card {
+  background-color: var(--card-background);
+  color: var(--text-color);
+}
+
+body.dark-mode .recipe-card p {
+  color: var(--paragraph-color);
+}
+
+
+
+body.dark-mode .modal-content {
+  background-color: var(--modal-background);
+  color: var(--text-color);
+}
+
+body.dark-mode .modal-content h2,
+body.dark-mode .modal-content h3 {
+  color: var(--heading-color);
+}
+
+body.dark-mode .modal-content p {
+  color: var(--text-color);
+}
+
+body.dark-mode .footer {
+  background-color:#181818;  /* Darker background for dark mode */
+  color: #f0f0f0; /* Light text color for readability */
+}
+
+
+
+body.dark-mode .edit-recipe-form-container {
+  background-color: rgba(0, 0, 0, 0.85); /* darker, more opaque background for dark mode */
+}
+
+body.dark-mode #editRecipeForm {
+  background-color: #333; /* dark background */
+  color: #f0f0f0; /* light text color */
+}
+
+body.dark-mode #editRecipeForm label {
+  color: #f0f0f0; /* light label color */
+}
+
+body.dark-mode #editRecipeForm input,
+body.dark-mode #editRecipeForm textarea {
+  background-color: #444; /* dark input field background */
+  color: #f0f0f0; /* light text color in inputs */
+  border: 1px solid #666; /* slightly darker border for inputs */
+}
+
+body.dark-mode .save-btn,
+body.dark-mode .cancel-btn {
+  background-color: #75C9B7; /* keeping button color consistent */
+  color: white;
+}
+
+body.dark-mode .cancel-btn:hover {
+  background-color: #1f2053; /* darker hover for cancel button */
+}
+
+body.dark-mode .save-btn:hover {
+  background-color: #1f2053; /* darker hover for save button */
+}
+/* Dark mode toggle button styling */
+.theme-toggle {
+  position: absolute;
+  top: 30px;
+  right: 60px;
+}
+
+#theme-toggle-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: var(--heading-color);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#theme-toggle-btn:hover {
+  transform: scale(1.2);
+}
+
+
+
 /* .navbar-links a:hover{
       background-color: #444;
   } */
@@ -178,7 +641,7 @@ header {
 }
 
 .Recipes {
-  background-color: #1f2053;
+  background-color: #75C9B7;
   color: white;
 }
 
@@ -193,11 +656,11 @@ header {
 }
 
 .Recipes:hover {
-  background-color: black;
+  background-color: #1f2053;
 }
 
 .Categories:hover {
-  background-color: black;
+  background-color: #1f2053;
   color: white;
 }
 
@@ -241,7 +704,7 @@ header {
 }
 
 .icon-bg {
-  background: linear-gradient(45deg, #1f2053, #33565c);
+  background: linear-gradient(45deg, #75C9B7, #75C9B7);
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -353,7 +816,7 @@ header {
 }
 
 .view-recipe-btn {
-  background-color: #1f2053;
+  background-color: #75C9B7;
   color: white;
   border: none;
   padding: 12px 30px;
@@ -374,7 +837,7 @@ header {
   max-width: 1100px;
   margin: 50px auto;
   text-align: center;
-  background-color: #ffffff;
+  
   padding: 30px; 
   border-radius: 10px;
   box-shadow: none; 
@@ -466,7 +929,7 @@ header {
 }
 
 .dot.active {
-  background-color: #1f2053;
+  background-color: #75C9B7;
 }
 
 .fade {
@@ -649,7 +1112,7 @@ header {
 
 .contact-form button {
   width: 100%;
-  background-color: #1f2053;
+  background-color: #75C9B7;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -659,7 +1122,7 @@ header {
 }
 
 .contact-form button:hover {
-  background-color: #18a65e;
+  background-color: #1f2053;
 }
 
 /* SignUp page  */
@@ -697,7 +1160,7 @@ header {
   width: 100%;
   padding: 15px;
   border: none;
-  background-color: #3ba757;
+  background-color: #75C9B7;
   color: white;
   border-radius: 5px;
   font-size: 16px;
@@ -705,7 +1168,7 @@ header {
 }
 
 .form-container button:hover {
-  background-color: #369b48;
+  background-color: #1f2053;
 }
 
 .form-container p {
@@ -714,7 +1177,7 @@ header {
 }
 
 .form-container p a {
-  color: #3ba757;
+  color: #75C9B7;
   text-decoration: none;
 }
 
@@ -725,7 +1188,7 @@ header {
   align-items: center;
   padding: 60px 15px;
   margin-top: 5rem;
-  background-color: #f5f5f5;
+
 }
 
 .login-container {
@@ -754,7 +1217,7 @@ header {
   width: 100%;
   padding: 15px;
   border: none;
-  background-color: #3ba757;
+  background-color: #75C9B7;
   color: white;
   border-radius: 5px;
   font-size: 16px;
@@ -762,7 +1225,7 @@ header {
 }
 
 .login-container button:hover {
-  background-color: #369b48;
+  background-color: #1f2053;
 }
 
 .login-container p {
@@ -771,7 +1234,7 @@ header {
 }
 
 .login-container p a {
-  color: #3ba757;
+  color: #75C9B7;
   text-decoration: none;
 }
 
@@ -927,7 +1390,7 @@ header {
 /* Submit Button Styles */
 .submit-btn {
   width: 100%;
-  background-color: #3ba757;
+  background-color: #75C9B7;
   color: white;
   padding: 15px;
   border: none;
@@ -940,7 +1403,7 @@ header {
 }
 
 .submit-btn:hover {
-  background-color: #2e8b4c;
+  background-color: #1f2053;
 }
 
 
@@ -949,7 +1412,7 @@ header {
 /* View Recipes  */
 .page-title {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 100px;
   margin-bottom: 20px;
   font-size: 2rem;
   color: #1f2053;
@@ -1017,6 +1480,23 @@ header {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.edit-recipe-btn {
+  background-color: #75C9B7; 
+  color: white;
+}
+
+.edit-recipe-btn:hover {
+  background-color: #1f2053;
+}
+
+.delete-recipe-btn {
+  background-color: #f44336; 
+  color: white;
+}
+
+.delete-recipe-btn:hover {
+  background-color: #1f2053;
+}
 
 
 
@@ -1050,21 +1530,6 @@ header {
   animation: fadeIn 0.3s ease-in-out;
 }
 
-.close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  color: #aaa;
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.close:hover,
-.close:focus {
-  color: #ff4757;
-}
 
 .modal-image-container img {
   width: 100%;
@@ -1095,7 +1560,7 @@ h3 {
 }
 /* Go Back button styling */
 .go-back {
-  background-color: #ff4757;
+  background-color: #75C9B7;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -1107,28 +1572,12 @@ h3 {
 
 .go-back:hover,
 .go-back:focus {
-  background-color: #e63946;
+  background-color: #1f2053;
   outline: none;
 }
 
 
-.edit-recipe-btn {
-  background-color: #4CAF50; 
-  color: white;
-}
 
-.edit-recipe-btn:hover {
-  background-color: #45A049;
-}
-
-.delete-recipe-btn {
-  background-color: #f44336; 
-  color: white;
-}
-
-.delete-recipe-btn:hover {
-  background-color: #e53935;
-}
 
 .edit-recipe-form-container {
   position: fixed;
@@ -1169,7 +1618,7 @@ h3 {
 }
 
 .save-btn {
-  background-color: #4CAF50;
+  background-color: #75C9B7;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -1177,6 +1626,9 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+}
+.save-btn :hover{
+  background-color: #1f2053;
 }
 
 .cancel-btn {
@@ -1189,6 +1641,9 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+}
+.cancel-btn :hover{
+  background-color: #1f2053;
 }
 
 
@@ -1262,7 +1717,7 @@ h3 {
   }
 
   .sign-up {
-    background-color: green;
+    background-color: #75C9B7;
     color: white;
     border-radius: 5px;
     
@@ -1351,16 +1806,6 @@ h3 {
     width: 15rem; 
     height: 15rem;
     margin-bottom: 20px;
-  }
-
-  /* footer section  */
-  .footer-container {
-    flex-direction: column;
-    text-align: left;
-  }
-
-  .footer-left,.footer-middle,.footer-resources,.footer-right {
-    margin:15px 0;
   }
 
   /* Contact Page  */
@@ -1481,20 +1926,27 @@ h3 {
 
   /* Modal Styling */
   .modal-content {
-    width: 95%;
-    padding: 15px;
+    width: 95%; /* Full width with a bit of padding on mobile */
+    padding: 20px; /* Reduce padding */
+    max-width: 450px; /* Larger max-width for small screens */
   }
 
   .modal h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem; /* Slightly larger title for readability */
   }
 
-  .modal p {
-    font-size: 1rem;
+  .go-back {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+  
+   /* Dark mode toggle button styling */
+   .theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 60px;
   }
 
-  .close {
-    font-size: 20px;
-  }
+
   
 }
