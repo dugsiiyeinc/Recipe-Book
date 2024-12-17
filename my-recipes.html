@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image" href="images/logo.png" />
+  <title>My Recipes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="images/logo.png" alt="" class="logo">
+      
+      <a href="#" class="togle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/recipes.html">Recipes</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="header-actions">
+          <button class="sign-in" >Sign In</button>
+          <button class="sign-up" >Sign Up</button>
+        </div>
+      </div>
+      <!-- Light/Dark Mode Toggle Button -->
+      <div class="theme-toggle">
+        <button id="theme-toggle-btn">🌞</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="recipes-container">
+      <h2 class="page-title">My Recipes</h2>
+      <div id="recipeList" class="recipe-list">
+        <!-- Example Recipe Card -->
+        <div class="recipe-card">
+          <img src="recipe-image.jpg" alt="Recipe Title">
+          <h3>Recipe Title</h3>
+          <p>Short description of the recipe.</p>
+          <button class="edit-recipe-btn">Edit</button>
+          <button class="delete-recipe-btn">Delete</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+            <img src="images/logo.png" alt="">
+            <p>© 2024 Recipe Book. All rights reserved.</p>
+        </div>
+        <div class="footer-middle">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/recipes.html">Recipes</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-resources">
+            <h4>Resources</h4>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <h4>Contact Us</h4>
+            <p>Email: contact@recipebook.com</p>
+            <p>Phone: +252b615555555</p>
+        </div>
+    </div>
+</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
